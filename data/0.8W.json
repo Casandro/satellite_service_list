@@ -2970,7 +2970,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -28704,7 +28704,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 17,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
