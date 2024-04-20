@@ -1,0 +1,2262 @@
+[
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 11012000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11012000V-5W",
+        "onid": 200,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 131070,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": 11,
+        "symbolrate": 35300000,
+        "tsid": 250,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 11012000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11012000V-5W",
+        "onid": 8572,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 131070,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Rai",
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 548,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 203,
+                "pmt": 178,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1468,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 203,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 303,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 603,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 603,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 603,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai News 24",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 812,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 176,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1466,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 673,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 673,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 673,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 Tgr Toscana",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 822,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 175,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1465,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 672,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 672,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 672,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 TGR Sardegna",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 803,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 174,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1464,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 671,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 671,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 671,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 TGR Liguria",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 3,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 173,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1463,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 673,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 673,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 673,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 Tgr Toscana",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 3,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 172,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1462,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 672,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 672,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 672,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 TGR Sardegna",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 3,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 171,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1461,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 671,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 671,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 671,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 TGR Liguria",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 0,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 103,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 170,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1460,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "duration": 3600,
+                        "height": 1080,
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264",
+                        "width": 1920
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Rai 3 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 48,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 203,
+                "pmt": 103,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1453,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 203,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 303,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 603,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 603,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 603,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai News 24",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 2,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 202,
+                "pmt": 102,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1452,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 202,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "ita",
+                        "pid": 302,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 402,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 502,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 602,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 602,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 602,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 2 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 1,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 201,
+                "pmt": 101,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1451,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 300,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "und",
+                        "pid": 301,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 401,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 501,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 601,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 601,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 601,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 1 HD",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": 3,
+        "symbolrate": 35300000,
+        "tsid": 183,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 11637000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11637000V-5W",
+        "onid": 318,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 131070,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": 1,
+        "symbolrate": 35296000,
+        "tsid": 1,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 12648000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-12648000V-5W",
+        "onid": 8442,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 121212,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "F",
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 8,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 120,
+                "pmt": 110,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NTN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 513,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 120,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 130,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 131,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 132,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 140,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 141,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    }
+                ],
+                "svcname": "C8",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 15,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 320,
+                "pmt": 310,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NTN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 515,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 320,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 330,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 340,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    }
+                ],
+                "svcname": "BFM TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 16,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 420,
+                "pmt": 410,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NTN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 516,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 420,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 430,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 440,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    }
+                ],
+                "svcname": "CNEWS",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 17,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 520,
+                "pmt": 510,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NTN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 517,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "duration": 3600,
+                        "height": 1080,
+                        "pid": 520,
+                        "position": 0,
+                        "type": "H264",
+                        "width": 1920
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 530,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 531,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 540,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 541,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 532,
+                        "position": 0,
+                        "type": "EAC3"
+                    }
+                ],
+                "svcname": "CSTAR",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 18,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 620,
+                "pmt": 610,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NTN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 518,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 620,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 630,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 631,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 632,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 640,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 641,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    }
+                ],
+                "svcname": "Gulli",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": 2,
+        "symbolrate": 29500000,
+        "tsid": 2,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 11637000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11637000V-5W",
+        "onid": 8572,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 131070,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Rai",
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": 10,
+        "symbolrate": 35296000,
+        "tsid": 213,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 11637000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11637000V-5W",
+        "onid": 8572,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 131070,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Rai",
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 548,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 203,
+                "pmt": 178,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1518,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 203,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 303,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 603,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 603,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 603,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai News 24",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 816,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 176,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1516,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 673,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 673,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 673,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 Tgr Abruzzo",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 814,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 175,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1515,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 672,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 672,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 672,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 Tgr Umbria",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 813,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 174,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1514,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 671,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 671,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 671,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 TGR Marche",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 3,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 173,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1513,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 673,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 673,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 673,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 Tgr Abruzzo",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 3,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 172,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1512,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 672,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 672,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 672,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 Tgr Umbria",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 3,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 171,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1511,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 671,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 671,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 671,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 3 TGR Marche",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 0,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 103,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 270,
+                "pmt": 170,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1510,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 270,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 370,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 470,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Rai 3 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 48,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 203,
+                "pmt": 103,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1503,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 203,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 303,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 603,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 603,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 603,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai News 24",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 2,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 202,
+                "pmt": 102,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1502,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 202,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "ita",
+                        "pid": 302,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 402,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 502,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 602,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 602,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 602,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 2 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 1,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 201,
+                "pmt": 101,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Rai",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1501,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 300,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "und",
+                        "pid": 301,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 401,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 501,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 601,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "ita",
+                        "parentpid": 601,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 601,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    }
+                ],
+                "svcname": "Rai 1 HD",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": 8,
+        "symbolrate": 35296000,
+        "tsid": 193,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 11637000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11637000V-5W",
+        "onid": 8572,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 131070,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Rai",
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": 7,
+        "symbolrate": 35296000,
+        "tsid": 133,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 11012000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11012000V-5W",
+        "onid": 8572,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 131070,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Rai",
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": 2,
+        "symbolrate": 35300000,
+        "tsid": 113,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 11637000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11637000V-5W",
+        "onid": 8572,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 131070,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Rai",
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": 10,
+        "symbolrate": 35296000,
+        "tsid": 213,
+        "tsid_zero": false
+    },
+    {
+        "charset": "UTF-8",
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 11016000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11016000H-5W",
+        "onid": 8572,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 131070,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Rai",
+        "polarisation": "H",
+        "rolloff": "AUTO",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": 9,
+        "symbolrate": 35300000,
+        "tsid": 153,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 12648000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-12648000V-5W",
+        "onid": 8442,
+        "orbital": "5W",
+        "pilot": "AUTO",
+        "pls_code": 121212,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "F",
+        "polarisation": "V",
+        "rolloff": "AUTO",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 23,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 520,
+                "pmt": 500,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "MHD7",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 2565,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 520,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 530,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 531,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 532,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 550,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 551,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    }
+                ],
+                "svcname": "RMC STORY",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 24,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 420,
+                "pmt": 400,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "MHD7",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 2564,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 420,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 430,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 431,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 432,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 450,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 451,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    }
+                ],
+                "svcname": "RMC D\u00e9couverte",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 25,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 320,
+                "pmt": 300,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "MHD7",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 2563,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 320,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 330,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 331,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 332,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 350,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 351,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    }
+                ],
+                "svcname": "Ch\u00e9rie 25",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 21,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 220,
+                "pmt": 210,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "MHD7",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 2562,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 220,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 230,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 231,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 250,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 232,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 251,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    }
+                ],
+                "svcname": "L'Equipe",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_ignore_eit": false,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 20,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 120,
+                "pmt": 100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "MHD7",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 2561,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 120,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 130,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 131,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "qaa",
+                        "pid": 132,
+                        "position": 0,
+                        "type": "EAC3"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 150,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "fre",
+                        "pid": 151,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    }
+                ],
+                "svcname": "TF1 S\u00e9ries Films",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": 1,
+        "symbolrate": 29500000,
+        "tsid": 10,
+        "tsid_zero": false
+    }
+]
