@@ -144,6 +144,8 @@ for mux in muxes:
             del service["uuid"]
             del service["last_seen"]
             del service["created"]
+            if "dvb_ignore_eit" in service:
+                del service["dvb_ignore_eit"]
             if "epg_ignore_eit" in service:
                 del service["epg_ignore_eit"]
             mux_service.append(service)
