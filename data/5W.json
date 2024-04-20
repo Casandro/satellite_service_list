@@ -40,7 +40,6 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -96,7 +95,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -160,7 +158,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -224,7 +221,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -288,7 +284,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -352,7 +347,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -416,7 +410,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -480,7 +473,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 0,
                 "enabled": true,
                 "force_caid": 0,
@@ -528,7 +520,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -584,7 +575,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -655,7 +645,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -780,7 +769,6 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -846,7 +834,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -890,7 +877,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -934,7 +920,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -1003,7 +988,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -1116,7 +1100,6 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -1172,7 +1155,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -1236,7 +1218,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -1300,7 +1281,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -1364,7 +1344,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -1428,7 +1407,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -1492,7 +1470,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -1556,7 +1533,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 0,
                 "enabled": true,
                 "force_caid": 0,
@@ -1601,7 +1577,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
@@ -1657,7 +1632,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -1728,7 +1702,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -1924,7 +1897,6 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -1990,7 +1962,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -2056,7 +2027,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -2122,7 +2092,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
@@ -2188,7 +2157,6 @@
             },
             {
                 "auto": 0,
-                "dvb_ignore_eit": false,
                 "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
