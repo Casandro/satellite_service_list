@@ -76529,7 +76529,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 2,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,

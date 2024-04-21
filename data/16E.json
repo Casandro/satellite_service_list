@@ -1527,7 +1527,7 @@
         "frequency": 11637000,
         "modulation": "PSK/8",
         "mux_name": "DVB-S2-11637000V-16E",
-        "onid": 152,
+        "onid": 366,
         "orbital": "16E",
         "pilot": "AUTO",
         "pls_code": 0,
@@ -1663,7 +1663,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1008,
@@ -1704,7 +1704,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1007,
@@ -1745,7 +1745,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1006,
@@ -1910,7 +1910,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1009,
@@ -1946,7 +1946,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 990,
@@ -1987,7 +1987,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -2050,7 +2050,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -2113,7 +2113,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
