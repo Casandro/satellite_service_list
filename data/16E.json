@@ -8337,7 +8337,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 312,
@@ -19752,7 +19752,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 209,
@@ -19959,7 +19959,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 26,
@@ -20055,7 +20055,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 25,
@@ -20151,7 +20151,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 23,
@@ -20317,7 +20317,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 503,
@@ -20642,7 +20642,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 602,
@@ -20952,7 +20952,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 988,
@@ -21084,7 +21084,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 986,
@@ -21160,7 +21160,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 32,
@@ -21256,7 +21256,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 115,
@@ -25347,7 +25347,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 211,
@@ -25845,7 +25845,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 201,
@@ -26116,7 +26116,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 321,
@@ -26439,7 +26439,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 210,
@@ -26535,7 +26535,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 20,
@@ -26753,7 +26753,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -27054,7 +27054,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -27130,7 +27130,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -27206,7 +27206,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -27282,7 +27282,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -33507,7 +33507,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 21,
@@ -34000,7 +34000,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1019,
@@ -34230,7 +34230,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1011,
@@ -34473,7 +34473,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 606,
@@ -34568,7 +34568,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 600,
@@ -34663,7 +34663,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 31,
@@ -34698,7 +34698,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 22,
@@ -35741,7 +35741,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 27,
@@ -36144,7 +36144,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 316,
@@ -36475,7 +36475,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 323,
@@ -37186,7 +37186,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -42187,7 +42187,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 307,
@@ -42400,7 +42400,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 309,
@@ -42544,7 +42544,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 308,
