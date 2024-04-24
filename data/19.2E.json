@@ -937,7 +937,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -1209,7 +1209,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -2706,7 +2706,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -4153,7 +4153,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -6874,7 +6874,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -11620,7 +11620,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -14599,7 +14599,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -15625,7 +15625,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "20",
         "services": [
@@ -16286,7 +16286,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -17275,7 +17275,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -19081,7 +19081,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -22216,6 +22216,141 @@
                 "lcn": 0,
                 "lcn2": 0,
                 "lcn_minor": 0,
+                "pcr": 210,
+                "pmt": 200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "CSAT",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 9402,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 210,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 231,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "spa",
+                        "pid": 232,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "ita",
+                        "pid": 233,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "por",
+                        "pid": 234,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "rus",
+                        "pid": 235,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "tur",
+                        "pid": 236,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "ara",
+                        "pid": 237,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 238,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "ger",
+                        "pid": 239,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6161,
+                                "providerid": 13073
+                            }
+                        ],
+                        "pid": 265,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6275,
+                                "providerid": 13073
+                            }
+                        ],
+                        "pid": 277,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6243,
+                                "providerid": 13123
+                            }
+                        ],
+                        "pid": 271,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1280,
+                                "providerid": 266048
+                            }
+                        ],
+                        "pid": 287,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "DAZN 1",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
                 "pcr": 110,
                 "pmt": 100,
                 "prefcapid": 0,
@@ -22273,7 +22408,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": ".",
+                "svcname": "UNIONTV",
                 "verified": 1
             }
         ],
@@ -27191,7 +27326,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -28748,7 +28883,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -28963,7 +29098,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -30274,7 +30409,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -30831,7 +30966,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -31691,7 +31826,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -34114,7 +34249,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -38182,7 +38317,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -39939,7 +40074,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -43361,7 +43496,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -46223,7 +46358,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -48996,7 +49131,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -50333,7 +50468,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -52281,7 +52416,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -54523,7 +54658,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -65417,7 +65552,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -69209,7 +69344,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -70096,7 +70231,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
