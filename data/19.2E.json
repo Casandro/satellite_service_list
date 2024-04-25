@@ -10336,7 +10336,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -11620,138 +11620,10 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 150,
-                "pmt": 850,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 17050,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 150,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 231,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "spa",
-                        "pid": 232,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "ita",
-                        "pid": 233,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "por",
-                        "pid": 234,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "rus",
-                        "pid": 235,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "tur",
-                        "pid": 236,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "ara",
-                        "pid": 237,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "eng",
-                        "pid": 238,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "ger",
-                        "pid": 239,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 256,
-                                "providerid": 13073
-                            },
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 2450,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 2850,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 2950,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "MOSAIQUE LDC",
-                "verified": 1
-            },
             {
                 "auto": 0,
                 "dvb_servicetype": 25,
@@ -15625,7 +15497,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "20",
         "services": [
@@ -16286,7 +16158,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -17275,7 +17147,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -17573,7 +17445,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -19081,7 +18953,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -20755,7 +20627,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -21147,198 +21019,6 @@
                 "lcn": 0,
                 "lcn2": 0,
                 "lcn_minor": 0,
-                "pcr": 1310,
-                "pmt": 1300,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 9413,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 1310,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 1321,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 1365,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13122
-                            }
-                        ],
-                        "pid": 1376,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 1377,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 1371,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "COLMAX TV",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 1210,
-                "pmt": 1200,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 9412,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 1210,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 1221,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "ancillartyid": 4,
-                        "compositionid": 3,
-                        "language": "fre",
-                        "pid": 1243,
-                        "position": 0,
-                        "type": "DVBSUB"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 1265,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13122
-                            }
-                        ],
-                        "pid": 1276,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 1277,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 1271,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 256,
-                                "providerid": 109
-                            },
-                            {
-                                "caid": 6169,
-                                "providerid": 109
-                            }
-                        ],
-                        "pid": 1274,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 1280,
-                                "providerid": 334080
-                            }
-                        ],
-                        "pid": 1288,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "TELETOON+1",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
                 "pcr": 1110,
                 "pmt": 1100,
                 "prefcapid": 0,
@@ -21442,74 +21122,6 @@
                     }
                 ],
                 "svcname": "TELETOON+",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 1010,
-                "pmt": 1000,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 9410,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 1010,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 1021,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 1065,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 1077,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 1071,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "CSTAR HITS FRANCE",
                 "verified": 1
             },
             {
@@ -22431,7 +22043,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -28883,7 +28495,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -30409,7 +30021,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -30966,7 +30578,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -34437,401 +34049,6 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 210,
-                "pmt": 200,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 8602,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 210,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 221,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "eng",
-                        "pid": 222,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "ancillartyid": 2,
-                        "compositionid": 1,
-                        "language": "fre",
-                        "pid": 242,
-                        "position": 0,
-                        "type": "DVBSUB"
-                    },
-                    {
-                        "ancillartyid": 4,
-                        "compositionid": 3,
-                        "language": "fre",
-                        "pid": 243,
-                        "position": 0,
-                        "type": "DVBSUB"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 265,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13122
-                            }
-                        ],
-                        "pid": 276,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 277,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 271,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "OCS GEANTS",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 310,
-                "pmt": 300,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 8603,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 310,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 321,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "eng",
-                        "pid": 322,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "ancillartyid": 2,
-                        "compositionid": 1,
-                        "language": "fre",
-                        "pid": 342,
-                        "position": 0,
-                        "type": "DVBSUB"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 365,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13122
-                            }
-                        ],
-                        "pid": 376,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 377,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 371,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6169,
-                                "providerid": 109
-                            },
-                            {
-                                "caid": 256,
-                                "providerid": 109
-                            }
-                        ],
-                        "pid": 374,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 1280,
-                                "providerid": 334080
-                            }
-                        ],
-                        "pid": 388,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "BET",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 410,
-                "pmt": 400,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 8604,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 410,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 421,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "eng",
-                        "pid": 422,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "ancillartyid": 2,
-                        "compositionid": 1,
-                        "language": "fre",
-                        "pid": 442,
-                        "position": 0,
-                        "type": "DVBSUB"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 465,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13122
-                            }
-                        ],
-                        "pid": 476,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 477,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 471,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "PARAMOUNT CHANNEL",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 510,
-                "pmt": 500,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 8605,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 510,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 521,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 565,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 577,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 571,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 1280,
-                                "providerid": 266048
-                            }
-                        ],
-                        "pid": 587,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "MULTISPORTS 6",
-                "verified": 1
-            },
-            {
-                "auto": 0,
                 "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
@@ -34918,119 +34135,6 @@
                     }
                 ],
                 "svcname": "F3 PICARDIE",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 710,
-                "pmt": 700,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 8607,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 710,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 721,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "ancillartyid": 4,
-                        "compositionid": 3,
-                        "language": "fre",
-                        "pid": 743,
-                        "position": 0,
-                        "type": "DVBSUB"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 765,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13122
-                            }
-                        ],
-                        "pid": 776,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 777,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 771,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6169,
-                                "providerid": 109
-                            },
-                            {
-                                "caid": 256,
-                                "providerid": 109
-                            }
-                        ],
-                        "pid": 774,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 1280,
-                                "providerid": 334080
-                            }
-                        ],
-                        "pid": 788,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "SEASONS",
                 "verified": 1
             },
             {
@@ -36020,205 +35124,6 @@
                     }
                 ],
                 "svcname": "NOA",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 1910,
-                "pmt": 1900,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 8619,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 1910,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 1921,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "eng",
-                        "pid": 1922,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "qaa",
-                        "pid": 1923,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "ancillartyid": 2,
-                        "compositionid": 1,
-                        "language": "fre",
-                        "pid": 1942,
-                        "position": 0,
-                        "type": "DVBSUB"
-                    },
-                    {
-                        "ancillartyid": 4,
-                        "compositionid": 3,
-                        "language": "fre",
-                        "pid": 1943,
-                        "position": 0,
-                        "type": "DVBSUB"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 1965,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13122
-                            }
-                        ],
-                        "pid": 1976,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 1977,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 1971,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 1280,
-                                "providerid": 275248
-                            }
-                        ],
-                        "pid": 1984,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 1280,
-                                "providerid": 199424
-                            }
-                        ],
-                        "pid": 1985,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "6TER",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 2010,
-                "pmt": 2000,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 8620,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 2010,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 2021,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 2065,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 2077,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 2071,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "DAZN 1",
                 "verified": 1
             }
         ],
@@ -42790,100 +41695,6 @@
                 "lcn": 0,
                 "lcn2": 0,
                 "lcn_minor": 0,
-                "pcr": 810,
-                "pmt": 800,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "CSAT",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 8208,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 810,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 821,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "qaa",
-                        "pid": 823,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "ancillartyid": 4,
-                        "compositionid": 3,
-                        "language": "fre",
-                        "pid": 843,
-                        "position": 0,
-                        "type": "DVBSUB"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6161,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 865,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13122
-                            }
-                        ],
-                        "pid": 876,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6275,
-                                "providerid": 13073
-                            }
-                        ],
-                        "pid": 877,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6243,
-                                "providerid": 13123
-                            }
-                        ],
-                        "pid": 871,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "NICKELODEON+1",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
                 "pcr": 1010,
                 "pmt": 1000,
                 "prefcapid": 0,
@@ -43496,7 +42307,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -46358,7 +45169,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -48042,7 +46853,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -49131,7 +47942,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -50228,7 +49039,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -52416,7 +51227,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -56442,7 +55253,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -58585,7 +57396,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -60143,7 +58954,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -66172,7 +64983,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -67768,7 +66579,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -68826,7 +67637,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
