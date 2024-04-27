@@ -2706,7 +2706,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -4995,7 +4995,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -6874,7 +6874,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -10336,7 +10336,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -11620,7 +11620,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -14193,9 +14193,12 @@
                         "type": "TELETEXT"
                     },
                     {
+                        "duration": 3600,
+                        "height": 576,
                         "pid": 1535,
                         "position": 0,
-                        "type": "MPEG2VIDEO"
+                        "type": "MPEG2VIDEO",
+                        "width": 720
                     },
                     {
                         "audio_type": 1,
@@ -14471,7 +14474,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -16158,7 +16161,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -17445,7 +17448,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -18279,7 +18282,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -18541,7 +18544,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -20627,7 +20630,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -25400,7 +25403,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -28495,7 +28498,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -28710,7 +28713,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -31438,7 +31441,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -33861,13 +33864,13 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -35146,7 +35149,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -35778,9 +35781,12 @@
                         "type": "DVBSUB"
                     },
                     {
+                        "duration": 1800,
+                        "height": 720,
                         "pid": 101,
                         "position": 0,
-                        "type": "H264"
+                        "type": "H264",
+                        "width": 1280
                     },
                     {
                         "audio_type": 0,
@@ -38979,7 +38985,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -42175,7 +42181,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "BetaDigital",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -45169,7 +45175,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -45694,7 +45700,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -46853,7 +46859,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -49039,7 +49045,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -51227,7 +51233,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -53469,7 +53475,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -57396,7 +57402,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -61063,7 +61069,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -64983,7 +64989,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -66579,7 +66585,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -67637,7 +67643,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -68155,7 +68161,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -69530,7 +69536,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [

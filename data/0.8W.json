@@ -24417,6 +24417,16 @@
                         "pid": 3150,
                         "position": 0,
                         "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 6999,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "Test 13008",
