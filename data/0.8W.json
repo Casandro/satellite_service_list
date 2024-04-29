@@ -1090,6 +1090,26 @@
                         "pid": 1072,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6146
+                            }
+                        ],
+                        "pid": 1078,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6272
+                            }
+                        ],
+                        "pid": 1079,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "Filmbox Premium HD",
@@ -2970,7 +2990,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -3538,6 +3558,14 @@
                         "pid": 1235,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "cze",
+                        "pid": 1218,
+                        "position": 0,
+                        "type": "DVBSUB"
                     }
                 ],
                 "svcname": "CT Sport HD",
@@ -3710,7 +3738,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -3773,7 +3801,7 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 1619
+                                "caid": 3479
                             }
                         ],
                         "pid": 1534,
@@ -3783,10 +3811,20 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 2818
+                                "caid": 1619
                             }
                         ],
                         "pid": 1535,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2818
+                            }
+                        ],
+                        "pid": 1536,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -3954,6 +3992,13 @@
                         "pid": 1932,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "audio_type": 3,
+                        "language": "cze",
+                        "pid": 1904,
+                        "position": 0,
+                        "type": "AAC"
                     }
                 ],
                 "svcname": "Prima Star",
@@ -4662,7 +4707,7 @@
                 "lcn2": 0,
                 "lcn_minor": 0,
                 "pcr": 1802,
-                "pmt": 598,
+                "pmt": 1801,
                 "prefcapid": 0,
                 "prefcapid_lock": 0,
                 "priority": 0,
@@ -6420,46 +6465,6 @@
                             }
                         ],
                         "pid": 5848,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6146
-                            }
-                        ],
-                        "pid": 6648,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6272
-                            }
-                        ],
-                        "pid": 6948,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6151
-                            }
-                        ],
-                        "pid": 6348,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6265
-                            }
-                        ],
-                        "pid": 6448,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -8647,6 +8652,46 @@
                         "pid": 4866,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6186,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6286,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6146
+                            }
+                        ],
+                        "pid": 6486,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6272
+                            }
+                        ],
+                        "pid": 6586,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "M4 HD",
@@ -9034,6 +9079,26 @@
                             }
                         ],
                         "pid": 4861,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6181,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6281,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -10157,6 +10222,26 @@
                         "pid": 6913,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6413,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6513,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "Viasat 2.",
@@ -10639,6 +10724,26 @@
                             }
                         ],
                         "pid": 6918,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6418,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6518,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -11183,6 +11288,26 @@
                         "pid": 6971,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6411,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6511,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "Filmbox Basic.",
@@ -11322,6 +11447,26 @@
                             }
                         ],
                         "pid": 6925,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6425,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6525,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -11499,7 +11644,7 @@
                 "lcn": 0,
                 "lcn2": 0,
                 "lcn_minor": 0,
-                "pcr": 2151,
+                "pcr": 2401,
                 "pmt": 2500,
                 "prefcapid": 0,
                 "prefcapid_lock": 0,
@@ -11511,67 +11656,57 @@
                 "srcid": 0,
                 "stream": [
                     {
-                        "pid": 2151,
+                        "caidlist": [
+                            {
+                                "caid": 6146
+                            }
+                        ],
+                        "pid": 6602,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6272
+                            }
+                        ],
+                        "pid": 6902,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6402,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6502,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "pid": 2401,
                         "position": 0,
                         "type": "MPEG2VIDEO"
                     },
                     {
                         "audio_type": 0,
                         "audio_version": 2,
-                        "language": "fre",
-                        "pid": 2160,
+                        "language": "hun",
+                        "pid": 2410,
                         "position": 0,
                         "type": "MPEG2AUDIO"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2818
-                            }
-                        ],
-                        "pid": 5495,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 3479
-                            }
-                        ],
-                        "pid": 6095,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 1619
-                            }
-                        ],
-                        "pid": 6395,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6165
-                            }
-                        ],
-                        "pid": 5195,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6173
-                            }
-                        ],
-                        "pid": 4895,
-                        "position": 262144,
-                        "type": "CA"
                     }
                 ],
                 "svcname": "Moziklub.",
@@ -11579,7 +11714,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -11635,7 +11770,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -11703,7 +11838,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -15839,9 +15974,6 @@
                     },
                     {
                         "caidlist": [
-                            {
-                                "caid": 6151
-                            },
                             {
                                 "caid": 6265
                             }
@@ -23154,6 +23286,46 @@
                         "pid": 932,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6146
+                            }
+                        ],
+                        "pid": 625,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6272
+                            }
+                        ],
+                        "pid": 725,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 1025,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 1125,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "VIASAT 3 .",
@@ -23256,6 +23428,46 @@
                             }
                         ],
                         "pid": 933,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6146
+                            }
+                        ],
+                        "pid": 626,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6272
+                            }
+                        ],
+                        "pid": 726,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 1026,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 1126,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -23380,6 +23592,26 @@
                             }
                         ],
                         "pid": 940,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 1040,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 1140,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -26278,7 +26510,7 @@
                     {
                         "audio_type": 0,
                         "audio_version": 2,
-                        "language": "qaa",
+                        "language": "cze",
                         "pid": 1203,
                         "position": 0,
                         "type": "MPEG2AUDIO"
@@ -26286,7 +26518,7 @@
                     {
                         "audio_type": 0,
                         "audio_version": 2,
-                        "language": "cze",
+                        "language": "qaa",
                         "pid": 1204,
                         "position": 0,
                         "type": "MPEG2AUDIO"
@@ -42744,6 +42976,26 @@
                         "pid": 6675,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6315,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6415,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "Film Mania.",
@@ -42843,7 +43095,7 @@
                                 "caid": 6151
                             }
                         ],
-                        "pid": 6983,
+                        "pid": 6303,
                         "position": 262144,
                         "type": "CA"
                     },
@@ -42853,7 +43105,27 @@
                                 "caid": 6265
                             }
                         ],
-                        "pid": 7083,
+                        "pid": 6403,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6146
+                            }
+                        ],
+                        "pid": 5603,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6272
+                            }
+                        ],
+                        "pid": 6803,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -42896,10 +43168,30 @@
                     {
                         "caidlist": [
                             {
+                                "caid": 6146
+                            }
+                        ],
+                        "pid": 5605,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6272
+                            }
+                        ],
+                        "pid": 6805,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
                                 "caid": 6151
                             }
                         ],
-                        "pid": 6984,
+                        "pid": 6305,
                         "position": 262144,
                         "type": "CA"
                     },
@@ -42909,7 +43201,7 @@
                                 "caid": 6265
                             }
                         ],
-                        "pid": 7084,
+                        "pid": 6405,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -43051,6 +43343,26 @@
                             }
                         ],
                         "pid": 4861,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6181,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6281,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -43422,6 +43734,46 @@
                         "pid": 4866,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6186,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6286,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6146
+                            }
+                        ],
+                        "pid": 6486,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6272
+                            }
+                        ],
+                        "pid": 6586,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "M4 HD",
@@ -43671,7 +44023,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -44466,6 +44818,22 @@
                         "pid": 2716,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "ancillartyid": 50,
+                        "compositionid": 1,
+                        "language": "fin",
+                        "pid": 6470,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 50,
+                        "compositionid": 15,
+                        "language": "fin",
+                        "pid": 6491,
+                        "position": 0,
+                        "type": "DVBSUB"
                     }
                 ],
                 "svcname": "Yle TV1 HD",
@@ -44582,16 +44950,8 @@
                     {
                         "audio_type": 0,
                         "audio_version": 2,
-                        "language": "ita",
+                        "language": "swe",
                         "pid": 4549,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    },
-                    {
-                        "audio_type": 3,
-                        "audio_version": 2,
-                        "language": "dut",
-                        "pid": 4552,
                         "position": 0,
                         "type": "MPEG2AUDIO"
                     },
@@ -44655,6 +45015,14 @@
                         "pid": 2713,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "ancillartyid": 50,
+                        "compositionid": 15,
+                        "language": "swe",
+                        "pid": 6695,
+                        "position": 0,
+                        "type": "DVBSUB"
                     }
                 ],
                 "svcname": "Yle Teema & Fem HD",
@@ -44780,11 +45148,6 @@
                         "pid": 6607,
                         "position": 0,
                         "type": "DVBSUB"
-                    },
-                    {
-                        "pid": 6314,
-                        "position": 0,
-                        "type": "TELETEXT"
                     },
                     {
                         "caidlist": [
@@ -44940,25 +45303,10 @@
                     },
                     {
                         "audio_type": 0,
-                        "language": "ita",
+                        "language": "swe",
                         "pid": 3534,
                         "position": 0,
                         "type": "AC3"
-                    },
-                    {
-                        "audio_type": 3,
-                        "language": "dut",
-                        "pid": 4547,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "ancillartyid": 50,
-                        "compositionid": 1,
-                        "language": "fin",
-                        "pid": 6680,
-                        "position": 0,
-                        "type": "DVBSUB"
                     },
                     {
                         "pid": 6445,
@@ -45012,6 +45360,14 @@
                         "pid": 2713,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "ancillartyid": 50,
+                        "compositionid": 15,
+                        "language": "swe",
+                        "pid": 6695,
+                        "position": 0,
+                        "type": "DVBSUB"
                     }
                 ],
                 "svcname": "Yle Teema & Fem HD",
@@ -45136,11 +45492,6 @@
                         "pid": 4211,
                         "position": 0,
                         "type": "MPEG2AUDIO"
-                    },
-                    {
-                        "pid": 6451,
-                        "position": 0,
-                        "type": "TELETEXT"
                     },
                     {
                         "ancillartyid": 1,
@@ -45269,6 +45620,22 @@
                         "pid": 2716,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "ancillartyid": 50,
+                        "compositionid": 1,
+                        "language": "fin",
+                        "pid": 6470,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 50,
+                        "compositionid": 15,
+                        "language": "fin",
+                        "pid": 6491,
+                        "position": 0,
+                        "type": "DVBSUB"
                     }
                 ],
                 "svcname": "Yle TV1 HD",
@@ -47963,6 +48330,26 @@
                         "pid": 2677,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 2680,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 2681,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "M4 HD",
@@ -48098,6 +48485,26 @@
                             }
                         ],
                         "pid": 2577,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 2580,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 2581,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -52003,7 +52410,7 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 6282
+                                "caid": 2366
                             }
                         ],
                         "pid": 7631,
@@ -52013,7 +52420,7 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 2366
+                                "caid": 2368
                             }
                         ],
                         "pid": 7632,
@@ -52023,10 +52430,10 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 2368
+                                "caid": 6282
                             }
                         ],
-                        "pid": 7633,
+                        "pid": 7630,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -52079,7 +52486,7 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 6282
+                                "caid": 2366
                             }
                         ],
                         "pid": 7631,
@@ -52089,7 +52496,7 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 2366
+                                "caid": 2368
                             }
                         ],
                         "pid": 7632,
@@ -52099,10 +52506,10 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 2368
+                                "caid": 6282
                             }
                         ],
-                        "pid": 7633,
+                        "pid": 7630,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -52621,14 +53028,6 @@
                         "type": "TELETEXT"
                     },
                     {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "eng",
-                        "pid": 4009,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    },
-                    {
                         "ancillartyid": 2,
                         "compositionid": 2,
                         "language": "swe",
@@ -52712,6 +53111,14 @@
                         "pid": 2140,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 4002,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
                     }
                 ],
                 "svcname": "BBC Nordic HD (old)",
@@ -57265,7 +57672,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -57443,26 +57850,6 @@
                             }
                         ],
                         "pid": 6831,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6151
-                            }
-                        ],
-                        "pid": 6514,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6265
-                            }
-                        ],
-                        "pid": 6614,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -61960,7 +62347,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "RTL KETTO HD.",
+                "svcname": "RTL KETTO HD",
                 "verified": 1
             },
             {
@@ -62122,7 +62509,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Love Nature HD.",
+                "svcname": "Love Nature HD",
                 "verified": 1
             },
             {
@@ -62318,7 +62705,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "RTL HAROM HD.",
+                "svcname": "RTL HAROM HD",
                 "verified": 1
             },
             {
@@ -66061,9 +66448,6 @@
                         "caidlist": [
                             {
                                 "caid": 6265
-                            },
-                            {
-                                "caid": 6151
                             }
                         ],
                         "pid": 6707,
@@ -66536,7 +66920,7 @@
                 "lcn": 0,
                 "lcn2": 0,
                 "lcn_minor": 0,
-                "pcr": 751,
+                "pcr": 401,
                 "pmt": 750,
                 "prefcapid": 0,
                 "prefcapid_lock": 0,
@@ -66548,65 +66932,57 @@
                 "srcid": 0,
                 "stream": [
                     {
-                        "pid": 751,
+                        "caidlist": [
+                            {
+                                "caid": 6146
+                            }
+                        ],
+                        "pid": 6507,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6272
+                            }
+                        ],
+                        "pid": 6807,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6151
+                            }
+                        ],
+                        "pid": 6607,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6265
+                            }
+                        ],
+                        "pid": 6707,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "pid": 401,
                         "position": 0,
                         "type": "MPEG2VIDEO"
                     },
                     {
                         "audio_type": 0,
                         "audio_version": 2,
-                        "language": "cze",
-                        "pid": 761,
+                        "language": "hun",
+                        "pid": 410,
                         "position": 0,
                         "type": "MPEG2AUDIO"
-                    },
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "slo",
-                        "pid": 764,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 6165
-                            }
-                        ],
-                        "pid": 5034,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2818
-                            }
-                        ],
-                        "pid": 5334,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 3479
-                            }
-                        ],
-                        "pid": 5934,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 1619
-                            }
-                        ],
-                        "pid": 6234,
-                        "position": 262144,
-                        "type": "CA"
                     }
                 ],
                 "svcname": "ATV Spirit.",
@@ -67500,7 +67876,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -68543,13 +68919,6 @@
                         "type": "AAC"
                     },
                     {
-                        "audio_type": 0,
-                        "language": "cze",
-                        "pid": 2204,
-                        "position": 0,
-                        "type": "AAC"
-                    },
-                    {
                         "caidlist": [
                             {
                                 "caid": 6274
@@ -68568,6 +68937,13 @@
                         "pid": 2232,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "cze",
+                        "pid": 2203,
+                        "position": 0,
+                        "type": "AAC"
                     }
                 ],
                 "svcname": "Viasat Explore HD",
@@ -68722,6 +69098,14 @@
                         "pid": 2435,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "cze",
+                        "pid": 2418,
+                        "position": 0,
+                        "type": "DVBSUB"
                     }
                 ],
                 "svcname": "CT 24 HD",
@@ -69136,6 +69520,22 @@
                         "pid": 2714,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "ancillartyid": 50,
+                        "compositionid": 1,
+                        "language": "fin",
+                        "pid": 6470,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 50,
+                        "compositionid": 15,
+                        "language": "fin",
+                        "pid": 6491,
+                        "position": 0,
+                        "type": "DVBSUB"
                     }
                 ],
                 "svcname": "Yle TV1 HD (old)",
@@ -69225,7 +69625,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "TV12 HD - text",
+                "svcname": "TV12 HD - text (old)",
                 "verified": 1
             },
             {
@@ -69400,7 +69800,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "TV12 HD",
+                "svcname": "TV12 HD (old)",
                 "verified": 1
             }
         ],
@@ -70885,11 +71285,6 @@
                         "pid": 6598,
                         "position": 0,
                         "type": "DVBSUB"
-                    },
-                    {
-                        "pid": 6048,
-                        "position": 0,
-                        "type": "TELETEXT"
                     },
                     {
                         "caidlist": [
@@ -73746,7 +74141,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -78531,7 +78926,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -79176,6 +79571,25 @@
                         "pid": 3060,
                         "position": 0,
                         "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 6013,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "language": "swe",
+                        "parentpid": 6013,
+                        "pid": 8883,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fin",
+                        "parentpid": 6013,
+                        "pid": 8886,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -80208,7 +80622,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "SkyShowtime 1 HD",
+                "svcname": "SkyShowtime 1 HD (old)",
                 "verified": 1
             },
             {
@@ -80340,7 +80754,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "SkyShowtime 2 HD",
+                "svcname": "SkyShowtime 2 HD (old)",
                 "verified": 1
             },
             {
@@ -80435,7 +80849,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "National Geographic HD (S/F)",
+                "svcname": "National Geographic HD (S/F) (old)",
                 "verified": 1
             },
             {
@@ -80511,7 +80925,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "National Geographic HD (D)",
+                "svcname": "National Geographic HD (D) (old)",
                 "verified": 1
             },
             {
@@ -80587,7 +81001,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "National Geographic HD (N)",
+                "svcname": "National Geographic HD (N) (old)",
                 "verified": 1
             }
         ],
@@ -83315,9 +83729,6 @@
                         "caidlist": [
                             {
                                 "caid": 6151
-                            },
-                            {
-                                "caid": 6265
                             }
                         ],
                         "pid": 6015,

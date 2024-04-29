@@ -142,7 +142,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 621,
@@ -7590,7 +7590,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 422,
@@ -8055,8 +8055,22 @@
                         "type": "TEXTSUB"
                     },
                     {
+                        "language": "ita",
+                        "parentpid": 778,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
                         "language": "eng",
                         "parentpid": 708,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 778,
                         "pid": 8970,
                         "position": 1001,
                         "type": "TEXTSUB"
@@ -8806,9 +8820,74 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 305,
+                "pmt": 63,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NOVA",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 421,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 37,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "gre",
+                        "pid": 62,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 305,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1540
+                            }
+                        ],
+                        "pid": 523,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1689
+                            }
+                        ],
+                        "pid": 572,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Novasports Prime HD CY",
+                "verified": 1
+            },
             {
                 "auto": 0,
                 "dvb_servicetype": 1,
@@ -9418,6 +9497,70 @@
                 "lcn2": 0,
                 "lcn_minor": 0,
                 "pcr": 209,
+                "pmt": 48,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NOVA",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 412,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 209,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "gre",
+                        "pid": 311,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 312,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1540
+                            }
+                        ],
+                        "pid": 512,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1689
+                            }
+                        ],
+                        "pid": 561,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Novasports Start HD CY",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 209,
                 "pmt": 51,
                 "prefcapid": 0,
                 "prefcapid_lock": 0,
@@ -9491,6 +9634,70 @@
                     }
                 ],
                 "svcname": "Novasports Start HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 208,
+                "pmt": 55,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NOVA",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 410,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 208,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "gre",
+                        "pid": 309,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 310,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1540
+                            }
+                        ],
+                        "pid": 510,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1689
+                            }
+                        ],
+                        "pid": 559,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Novasports6HD CY",
                 "verified": 1
             },
             {
@@ -10921,7 +11128,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Eurosport 2 HD",
+                "svcname": "Eurosport 2",
                 "verified": 1
             },
             {
@@ -10975,7 +11182,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Eurosport HD",
+                "svcname": "Eurosport 1",
                 "verified": 1
             }
         ],
@@ -12750,7 +12957,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -13078,7 +13285,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -13203,7 +13410,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -13969,7 +14176,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "Kabelio",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -15295,7 +15502,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "CANAL+",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -22023,7 +22230,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 310,
@@ -22093,7 +22300,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 311,
@@ -22148,7 +22355,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 309,
@@ -22998,7 +23205,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 305,
@@ -23068,7 +23275,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 304,
@@ -23146,7 +23353,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 303,
@@ -24914,7 +25121,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "PolsatBox",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "20",
         "services": [
@@ -28175,6 +28382,27 @@
                         "type": "TEXTSUB"
                     },
                     {
+                        "language": "fre",
+                        "parentpid": 1393,
+                        "pid": 9081,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 1394,
+                        "pid": 9081,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "rus",
+                        "parentpid": 1395,
+                        "pid": 9081,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
                         "caidlist": [
                             {
                                 "caid": 1572
@@ -29270,7 +29498,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 31,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -29622,7 +29850,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 31,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 431,
@@ -29689,7 +29917,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 418,
@@ -29744,7 +29972,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 120,
@@ -29835,7 +30063,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 420,
@@ -29883,7 +30111,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 417,
@@ -29919,7 +30147,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -30503,7 +30731,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -31406,7 +31634,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -31441,7 +31669,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -32082,7 +32310,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -32117,7 +32345,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -37240,16 +37468,16 @@
                         "type": "MPEG2AUDIO"
                     },
                     {
-                        "language": "pol",
-                        "parentpid": 512,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 512,
                         "position": 0,
                         "type": "TELETEXT"
+                    },
+                    {
+                        "language": "pol",
+                        "parentpid": 512,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -38554,7 +38782,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 607,
@@ -38616,7 +38844,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 603,
@@ -39516,6 +39744,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
+        "pnetwork_name": "NetMed",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -42717,7 +42946,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 8,
@@ -42830,7 +43059,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -44355,7 +44584,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -44546,7 +44775,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -44726,7 +44955,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -46689,7 +46918,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 15,
@@ -47257,7 +47486,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "Kabelio",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -48421,10 +48650,73 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "NetMed",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 935,
+                "pmt": 101,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NOVA",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 15501,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 935,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 936,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 937,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1540
+                            }
+                        ],
+                        "pid": 800,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1689
+                            }
+                        ],
+                        "pid": 853,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Novacinema1HD Cy",
+                "verified": 1
+            },
             {
                 "auto": 0,
                 "dvb_servicetype": 1,
@@ -48924,6 +49216,70 @@
                     }
                 ],
                 "svcname": "ATTICA TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 402,
+                "pmt": 34,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NOVA",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 15513,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 35,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 402,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "gre",
+                        "pid": 403,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1540
+                            }
+                        ],
+                        "pid": 812,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1689
+                            }
+                        ],
+                        "pid": 860,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Novasports2HD Cy",
                 "verified": 1
             },
             {
@@ -49435,8 +49791,22 @@
                         "type": "TEXTSUB"
                     },
                     {
+                        "language": "ita",
+                        "parentpid": 708,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
                         "language": "eng",
                         "parentpid": 778,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 708,
                         "pid": 8970,
                         "position": 1001,
                         "type": "TEXTSUB"
@@ -52065,6 +52435,26 @@
                         "pid": 2513,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1540
+                            }
+                        ],
+                        "pid": 4213,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1689
+                            }
+                        ],
+                        "pid": 4313,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "CNNI EMEA HD",
@@ -52333,7 +52723,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -52369,7 +52759,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -53012,7 +53402,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -53048,7 +53438,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -62478,7 +62868,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Cartoon Network HD",
+                "svcname": "Cartoon Network",
                 "verified": 1
             },
             {
@@ -62762,7 +63152,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "DC Superheroes Collection",
+                "svcname": "Christopher Nolan Collection",
                 "verified": 1
             },
             {
@@ -63002,12 +63392,13 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 31,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -63799,36 +64190,6 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 1130,
-                "pmt": 1100,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1711,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "pid": 1130,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "Chaine 2",
-                "verified": 1
-            },
-            {
-                "auto": 0,
                 "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
@@ -63861,399 +64222,6 @@
                     }
                 ],
                 "svcname": "SOYUZ",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 1,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 2120,
-                "pmt": 2100,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1721,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 2120,
-                        "position": 0,
-                        "type": "MPEG2VIDEO"
-                    },
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "ukr",
-                        "pid": 2130,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "Eko TV",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 1,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 2220,
-                "pmt": 2200,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1722,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 2220,
-                        "position": 0,
-                        "type": "MPEG2VIDEO"
-                    },
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "ukr",
-                        "pid": 2230,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "Milady",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 1,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 2320,
-                "pmt": 2300,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1723,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 2320,
-                        "position": 0,
-                        "type": "MPEG2VIDEO"
-                    },
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "ukr",
-                        "pid": 2330,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "Nataly",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 1,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 2420,
-                "pmt": 2400,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1724,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 2420,
-                        "position": 0,
-                        "type": "MPEG2VIDEO"
-                    },
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "ukr",
-                        "pid": 2430,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "Provence",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 1,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 2520,
-                "pmt": 2500,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1725,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 2520,
-                        "position": 0,
-                        "type": "MPEG2VIDEO"
-                    },
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "pid": 2530,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "KaravanTV",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 2,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 3130,
-                "pmt": 3100,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1731,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "pid": 3130,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "Chaine 3",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 2,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 5130,
-                "pmt": 5100,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1751,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "pid": 5130,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "Chaine 1",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 2,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 5230,
-                "pmt": 5200,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1752,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "pid": 5230,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "Bahai Radio",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 1,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 5211,
-                "pmt": 5300,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1753,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "eng",
-                        "pid": 5211,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "WRN Russkij",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 1,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 5511,
-                "pmt": 5500,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1755,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "eng",
-                        "pid": 5511,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "Radio Jahani",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 1,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 5611,
-                "pmt": 5600,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1756,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "eng",
-                        "pid": 5611,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "EDM Events",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 1,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 5701,
-                "pmt": 5700,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "GLOBECAST",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 1757,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "audio_type": 0,
-                        "audio_version": 2,
-                        "language": "eng",
-                        "pid": 5701,
-                        "position": 0,
-                        "type": "MPEG2AUDIO"
-                    }
-                ],
-                "svcname": "WRN Sawt Al Alam",
                 "verified": 1
             },
             {
@@ -64752,7 +64720,7 @@
         "frequency": 12558000,
         "modulation": "PSK/8",
         "mux_name": "DVB-S2-12558000V-13E",
-        "onid": 318,
+        "onid": 319,
         "orbital": "13E",
         "pilot": "AUTO",
         "pls_code": 0,
@@ -69229,8 +69197,22 @@
                         "type": "TEXTSUB"
                     },
                     {
+                        "language": "ita",
+                        "parentpid": 708,
+                        "pid": 8969,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
                         "language": "eng",
                         "parentpid": 778,
+                        "pid": 8970,
+                        "position": 1001,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 708,
                         "pid": 8970,
                         "position": 1001,
                         "type": "TEXTSUB"
@@ -69805,7 +69787,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -70910,7 +70892,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Documentaries +1",
+                "svcname": "Sky Documentaries",
                 "verified": 1
             },
             {
@@ -70981,7 +70963,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Investigation Maratone",
+                "svcname": "Sky Investigation +1",
                 "verified": 1
             },
             {
@@ -71052,7 +71034,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Documentaries +1",
+                "svcname": "Sky Documentaries",
                 "verified": 1
             },
             {
@@ -71126,7 +71108,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -71360,7 +71342,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -71584,7 +71566,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -71919,7 +71901,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -72064,7 +72046,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "NetMed",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -73913,7 +73895,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 317,
@@ -73949,7 +73931,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 319,
@@ -74055,7 +74037,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 320,
@@ -74090,7 +74072,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 318,
@@ -74794,7 +74776,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -75024,7 +75006,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -75095,7 +75077,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -80955,7 +80937,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -82695,16 +82677,16 @@
                         "type": "MPEG2AUDIO"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 776,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 776,
                         "position": 0,
                         "type": "TELETEXT"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 776,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -82788,16 +82770,16 @@
                         "type": "MPEG2AUDIO"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 786,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 786,
                         "position": 0,
                         "type": "TELETEXT"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 786,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -82905,16 +82887,16 @@
                         "type": "MPEG2AUDIO"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 795,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 795,
                         "position": 0,
                         "type": "TELETEXT"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 795,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -83023,16 +83005,16 @@
                         "type": "MPEG2AUDIO"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 4206,
-                        "pid": 9050,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 4206,
                         "position": 0,
                         "type": "TELETEXT"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 4206,
+                        "pid": 9050,
+                        "position": 1000,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -83158,20 +83140,6 @@
                         "type": "MPEG2AUDIO"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 501,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 501,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 501,
                         "position": 0,
                         "type": "TELETEXT"
@@ -83183,6 +83151,20 @@
                         "pid": 801,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 501,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 501,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -83249,20 +83231,6 @@
                         "type": "AC3"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 502,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 502,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 502,
                         "position": 0,
                         "type": "TELETEXT"
@@ -83282,6 +83250,20 @@
                         "pid": 602,
                         "position": 0,
                         "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 502,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 502,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -83385,20 +83367,6 @@
                         "type": "AC3"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 503,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 503,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 503,
                         "position": 0,
                         "type": "TELETEXT"
@@ -83410,6 +83378,20 @@
                         "pid": 803,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 503,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 503,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -83513,20 +83495,6 @@
                         "type": "AAC"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 504,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 504,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 504,
                         "position": 0,
                         "type": "TELETEXT"
@@ -83538,6 +83506,20 @@
                         "pid": 804,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 504,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 504,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -83641,20 +83623,6 @@
                         "type": "AAC"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 505,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 505,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 505,
                         "position": 0,
                         "type": "TELETEXT"
@@ -83666,6 +83634,20 @@
                         "pid": 805,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 505,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 505,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -83771,23 +83753,23 @@
                         "type": "MPEG2AUDIO"
                     },
                     {
+                        "pid": 506,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
                         "language": "fre",
                         "parentpid": 506,
                         "pid": 9050,
-                        "position": 0,
+                        "position": 1000,
                         "type": "TEXTSUB"
                     },
                     {
                         "language": "fre",
                         "parentpid": 506,
                         "pid": 9051,
-                        "position": 0,
+                        "position": 1001,
                         "type": "TEXTSUB"
-                    },
-                    {
-                        "pid": 506,
-                        "position": 0,
-                        "type": "TELETEXT"
                     },
                     {
                         "caidlist": [
@@ -83865,20 +83847,6 @@
                         "type": "AC3"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 507,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 507,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 507,
                         "position": 0,
                         "type": "TELETEXT"
@@ -83890,6 +83858,20 @@
                         "pid": 807,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 507,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 507,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -83986,20 +83968,6 @@
                         "type": "AC3"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 508,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 508,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 508,
                         "position": 0,
                         "type": "TELETEXT"
@@ -84011,6 +83979,20 @@
                         "pid": 808,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 508,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 508,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -84107,20 +84089,6 @@
                         "type": "AC3"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 509,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 509,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 509,
                         "position": 0,
                         "type": "TELETEXT"
@@ -84132,6 +84100,20 @@
                         "pid": 809,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 509,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 509,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -84235,20 +84217,6 @@
                         "type": "AC3"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 511,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 511,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 511,
                         "position": 0,
                         "type": "TELETEXT"
@@ -84268,6 +84236,20 @@
                         "pid": 611,
                         "position": 0,
                         "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 511,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 511,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -84371,20 +84353,6 @@
                         "type": "AC3"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 512,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 512,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 512,
                         "position": 0,
                         "type": "TELETEXT"
@@ -84396,6 +84364,20 @@
                         "pid": 812,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 512,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 512,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -84492,20 +84474,6 @@
                         "type": "AC3"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 513,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
-                        "language": "fre",
-                        "parentpid": 513,
-                        "pid": 9081,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 513,
                         "position": 0,
                         "type": "TELETEXT"
@@ -84517,6 +84485,20 @@
                         "pid": 813,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 513,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 513,
+                        "pid": 9081,
+                        "position": 1001,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -84621,13 +84603,6 @@
                         "type": "AAC"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 516,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 516,
                         "position": 0,
                         "type": "TELETEXT"
@@ -84639,6 +84614,13 @@
                         "pid": 816,
                         "position": 0,
                         "type": "DVBSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 516,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -84845,16 +84827,16 @@
                         "type": "AC3"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 520,
-                        "pid": 9050,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 520,
                         "position": 0,
                         "type": "TELETEXT"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 520,
+                        "pid": 9050,
+                        "position": 1000,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -85050,8 +85032,7 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 256,
-                                "providerid": 104
+                                "caid": 256
                             }
                         ],
                         "pid": 4241,
@@ -85121,8 +85102,7 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 1280,
-                                "providerid": 207360
+                                "caid": 1280
                             }
                         ],
                         "pid": 4244,
@@ -86397,7 +86377,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -86587,7 +86567,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -86978,7 +86958,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -88740,7 +88720,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 625,
@@ -89820,7 +89800,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -90002,7 +89982,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 416,
@@ -90078,6 +90058,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -95021,6 +95002,132 @@
                 ],
                 "svcname": "Adult Pack Info",
                 "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 529,
+                "pmt": 57,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NOVA",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 7125,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 529,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 781,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 786,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1540
+                            }
+                        ],
+                        "pid": 1538,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1689
+                            }
+                        ],
+                        "pid": 1560,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Novacinema2HD Cy",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 515,
+                "pmt": 56,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "NOVA",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 7126,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 515,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 680,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 681,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1540
+                            }
+                        ],
+                        "pid": 1539,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1689
+                            }
+                        ],
+                        "pid": 1566,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Novacinema3HD Cy",
+                "verified": 1
             }
         ],
         "sid_filter": 0,
@@ -96881,20 +96988,20 @@
                         "type": "AC3"
                     },
                     {
-                        "pid": 709,
+                        "pid": 705,
                         "position": 0,
                         "type": "TELETEXT"
                     },
                     {
                         "language": "ita",
-                        "parentpid": 709,
+                        "parentpid": 705,
                         "pid": 8969,
                         "position": 1000,
                         "type": "TEXTSUB"
                     },
                     {
                         "language": "eng",
-                        "parentpid": 709,
+                        "parentpid": 705,
                         "pid": 8970,
                         "position": 1001,
                         "type": "TEXTSUB"
@@ -98293,7 +98400,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -101745,6 +101852,7 @@
                     {
                         "audio_type": 0,
                         "audio_version": 2,
+                        "language": "pol",
                         "pid": 3004,
                         "position": 0,
                         "type": "MPEG2AUDIO"
@@ -103990,7 +104098,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -104070,7 +104178,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 421,
@@ -104106,7 +104214,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,

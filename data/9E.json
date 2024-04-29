@@ -532,6 +532,27 @@
                         "type": "TEXTSUB"
                     },
                     {
+                        "language": "fre",
+                        "parentpid": 1593,
+                        "pid": 9081,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 1594,
+                        "pid": 9081,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "rus",
+                        "parentpid": 1595,
+                        "pid": 9081,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
                         "caidlist": [
                             {
                                 "caid": 2816

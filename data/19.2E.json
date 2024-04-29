@@ -510,7 +510,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "BetaDigital",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -680,7 +680,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Cinema Family HD",
+                "svcname": "Sky Cinema Family",
                 "verified": 1
             },
             {
@@ -755,7 +755,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Mix HD",
+                "svcname": "Sky Sport Mix",
                 "verified": 1
             },
             {
@@ -837,7 +837,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky One HD",
+                "svcname": "Sky One",
                 "verified": 1
             },
             {
@@ -937,7 +937,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -1018,7 +1018,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Romance TV HD",
+                "svcname": "Romance TV",
                 "verified": 1
             },
             {
@@ -1098,7 +1098,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Bundesliga 2 HD",
+                "svcname": "Sky Sport Bundesliga 2",
                 "verified": 1
             },
             {
@@ -1180,7 +1180,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Austria 3 HD",
+                "svcname": "Sky Sport Austria 3",
                 "verified": 1
             }
         ],
@@ -2144,7 +2144,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -2706,7 +2706,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -4153,7 +4153,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -6699,7 +6699,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -8458,9 +8458,12 @@
                         "type": "AC3"
                     },
                     {
+                        "duration": 3600,
+                        "height": 576,
                         "pid": 161,
                         "position": 0,
-                        "type": "MPEG2VIDEO"
+                        "type": "MPEG2VIDEO",
+                        "width": 720
                     },
                     {
                         "language": "ger",
@@ -14369,9 +14372,12 @@
                         "type": "TELETEXT"
                     },
                     {
+                        "duration": 3600,
+                        "height": 576,
                         "pid": 511,
                         "position": 0,
-                        "type": "MPEG2VIDEO"
+                        "type": "MPEG2VIDEO",
+                        "width": 720
                     },
                     {
                         "audio_type": 1,
@@ -14474,7 +14480,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -14623,6 +14629,16 @@
                             }
                         ],
                         "pid": 265,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 2060,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -14775,6 +14791,16 @@
                             }
                         ],
                         "pid": 521,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 2061,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -14967,6 +14993,16 @@
                             }
                         ],
                         "pid": 523,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 2064,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -15265,6 +15301,16 @@
                         "pid": 1801,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 2066,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "RTLup HD",
@@ -15409,6 +15455,16 @@
                         "pid": 2057,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 2067,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "VOXup HD",
@@ -15500,7 +15556,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "20",
         "services": [
@@ -15762,6 +15818,16 @@
                         "pid": 445,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 447,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "RTLZWEI HD Austria",
@@ -15914,6 +15980,16 @@
                         "pid": 349,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 357,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "SUPER RTL HD",
@@ -16023,6 +16099,16 @@
                             }
                         ],
                         "pid": 245,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 247,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -16136,6 +16222,16 @@
                         "pid": 145,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 147,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "RTL HD Austria",
@@ -16161,7 +16257,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -17150,7 +17246,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -18282,7 +18378,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -18544,7 +18640,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -19209,7 +19305,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport F1 HD",
+                "svcname": "Sky Sport F1",
                 "verified": 1
             },
             {
@@ -19291,7 +19387,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Cinema Action HD",
+                "svcname": "Sky Cinema Action",
                 "verified": 1
             },
             {
@@ -19366,7 +19462,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "DAZN 2 HD",
+                "svcname": "DAZN 2",
                 "verified": 1
             },
             {
@@ -19441,7 +19537,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "DAZN 1 HD",
+                "svcname": "DAZN 1",
                 "verified": 1
             },
             {
@@ -19516,7 +19612,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Beate Uhse HD",
+                "svcname": "Beate Uhse",
                 "verified": 1
             },
             {
@@ -19603,7 +19699,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Bundesliga 6 HD",
+                "svcname": "Sky Sport Bundesliga 6",
                 "verified": 1
             },
             {
@@ -19678,7 +19774,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Austria 5 HD",
+                "svcname": "Sky Sport Austria 5",
                 "verified": 1
             },
             {
@@ -19758,7 +19854,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Bundesliga 7 HD",
+                "svcname": "Sky Sport Bundesliga 7",
                 "verified": 1
             },
             {
@@ -19845,7 +19941,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport 7 HD",
+                "svcname": "Sky Sport 7",
                 "verified": 1
             },
             {
@@ -19932,7 +20028,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport 6 HD",
+                "svcname": "Sky Sport 6",
                 "verified": 1
             }
         ],
@@ -19955,6 +20051,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -21848,69 +21945,6 @@
                         "type": "H264"
                     },
                     {
-                        "audio_type": 0,
-                        "language": "fre",
-                        "pid": 231,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "spa",
-                        "pid": 232,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "ita",
-                        "pid": 233,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "por",
-                        "pid": 234,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "rus",
-                        "pid": 235,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "tur",
-                        "pid": 236,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "ara",
-                        "pid": 237,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "eng",
-                        "pid": 238,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 0,
-                        "language": "ger",
-                        "pid": 239,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
                         "caidlist": [
                             {
                                 "caid": 6161,
@@ -21944,15 +21978,11 @@
                         "type": "CA"
                     },
                     {
-                        "caidlist": [
-                            {
-                                "caid": 1280,
-                                "providerid": 266048
-                            }
-                        ],
-                        "pid": 287,
-                        "position": 262144,
-                        "type": "CA"
+                        "audio_type": 0,
+                        "language": "fre",
+                        "pid": 221,
+                        "position": 0,
+                        "type": "AC3"
                     }
                 ],
                 "svcname": "DAZN 1",
@@ -23578,13 +23608,6 @@
                         "audio_type": 1,
                         "language": "ger",
                         "pid": 1027,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 1,
-                        "language": "eng",
-                        "pid": 1028,
                         "position": 0,
                         "type": "AC3"
                     },
@@ -26941,7 +26964,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -28713,7 +28736,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -30024,7 +30047,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -31394,6 +31417,18 @@
                         "pid": 2256,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "language": "spa",
+                        "parentpid": 62,
+                        "pid": 9050,
+                        "position": 0,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "pid": 62,
+                        "position": 0,
+                        "type": "TELETEXT"
                     }
                 ],
                 "svcname": "BE MAD",
@@ -31441,7 +31476,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -33864,7 +33899,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -33927,6 +33962,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -36123,13 +36159,6 @@
                         "type": "AC3"
                     },
                     {
-                        "audio_type": 1,
-                        "language": "eng",
-                        "pid": 772,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
                         "caidlist": [
                             {
                                 "caid": 2500
@@ -36518,6 +36547,14 @@
                         "pid": 7953,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 1025,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
                     }
                 ],
                 "svcname": "Motorvision+",
@@ -38337,6 +38374,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -40226,7 +40264,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Universal TV HD",
+                "svcname": "Universal TV",
                 "verified": 1
             },
             {
@@ -40308,7 +40346,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Warner TV Serie HD",
+                "svcname": "Warner TV Serie",
                 "verified": 1
             },
             {
@@ -40550,7 +40588,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Bundesliga 8 HD",
+                "svcname": "Sky Sport Bundesliga 8",
                 "verified": 1
             },
             {
@@ -40652,7 +40690,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -44179,6 +44217,309 @@
                 ],
                 "svcname": "SAT.1 Gold HD Austria",
                 "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 767,
+                "pmt": 98,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "SES ASTRA",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 12502,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 767,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 1,
+                        "language": "ger",
+                        "pid": 771,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6192
+                            }
+                        ],
+                        "pid": 7420,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6240
+                            }
+                        ],
+                        "pid": 7932,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6211
+                            }
+                        ],
+                        "pid": 6652,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2444
+                            }
+                        ],
+                        "pid": 6908,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2500
+                            }
+                        ],
+                        "pid": 7164,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6250
+                            }
+                        ],
+                        "pid": 7676,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6253
+                            }
+                        ],
+                        "pid": 7677,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2445
+                            }
+                        ],
+                        "pid": 6396,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 19300
+                            },
+                            {
+                                "caid": 6210
+                            }
+                        ],
+                        "pid": 7421,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 19188,
+                                "providerid": 1
+                            }
+                        ],
+                        "pid": 6140,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 5884,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Eurosport 1 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 255,
+                "pmt": 96,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "ProSiebenSat.1",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 12500,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 32,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "pid": 255,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 1,
+                        "language": "ger",
+                        "pid": 259,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6192
+                            }
+                        ],
+                        "pid": 7376,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6240
+                            }
+                        ],
+                        "pid": 7888,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6211
+                            }
+                        ],
+                        "pid": 6608,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2444
+                            }
+                        ],
+                        "pid": 6864,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2500
+                            }
+                        ],
+                        "pid": 7120,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6250
+                            }
+                        ],
+                        "pid": 7632,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2445
+                            }
+                        ],
+                        "pid": 6352,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 6253
+                            }
+                        ],
+                        "pid": 7633,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 19300
+                            },
+                            {
+                                "caid": 6210
+                            }
+                        ],
+                        "pid": 7377,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 19188,
+                                "providerid": 1
+                            }
+                        ],
+                        "pid": 6096,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 5840,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "SAT.1 Gold HD",
+                "verified": 1
             }
         ],
         "sid_filter": 0,
@@ -44365,7 +44706,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Bundesliga HD",
+                "svcname": "Sky Sport Bundesliga",
                 "verified": 1
             },
             {
@@ -44447,7 +44788,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Cinema Best Of HD",
+                "svcname": "Sky Cinema Classics",
                 "verified": 1
             },
             {
@@ -44522,7 +44863,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport News HD",
+                "svcname": "Sky Sport News",
                 "verified": 1
             },
             {
@@ -44604,7 +44945,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Replay HD",
+                "svcname": "Sky Replay",
                 "verified": 1
             },
             {
@@ -44686,7 +45027,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "SYFY HD",
+                "svcname": "SYFY",
                 "verified": 1
             },
             {
@@ -44849,7 +45190,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Bundesliga 3 HD",
+                "svcname": "Sky Sport Bundesliga 3",
                 "verified": 1
             }
         ],
@@ -44933,6 +45274,13 @@
                         "pid": 2677,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "audio_type": 1,
+                        "language": "qaa",
+                        "pid": 2622,
+                        "position": 0,
+                        "type": "AC3"
                     }
                 ],
                 "svcname": "EVENEMENT SPORT 4K UHD",
@@ -45397,7 +45745,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -46556,7 +46904,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -48742,7 +49090,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -48982,7 +49330,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -50930,7 +51278,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -52613,7 +52961,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -53172,7 +53520,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -56481,7 +56829,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Krimi HD",
+                "svcname": "Sky Krimi",
                 "verified": 1
             },
             {
@@ -56563,7 +56911,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Warner TV Film HD",
+                "svcname": "Warner TV Film",
                 "verified": 1
             },
             {
@@ -56602,13 +56950,6 @@
                         "audio_type": 1,
                         "language": "qaa",
                         "pid": 3330,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 1,
-                        "language": "qaa",
-                        "pid": 3332,
                         "position": 0,
                         "type": "AC3"
                     },
@@ -56653,7 +56994,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Austria 1 HD",
+                "svcname": "Sky Sport Austria 1",
                 "verified": 1
             },
             {
@@ -56726,9 +57067,16 @@
                         "pid": 7955,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "audio_type": 1,
+                        "language": "qaa",
+                        "pid": 3844,
+                        "position": 0,
+                        "type": "AC3"
                     }
                 ],
-                "svcname": "Sky Sport Premier League HD",
+                "svcname": "Sky Sport Premier League",
                 "verified": 1
             },
             {
@@ -56815,7 +57163,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Bundesliga 5 HD",
+                "svcname": "Sky Sport Bundesliga 5",
                 "verified": 1
             },
             {
@@ -56902,7 +57250,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport 5 HD",
+                "svcname": "Sky Sport 5",
                 "verified": 1
             },
             {
@@ -56989,7 +57337,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport 4 HD",
+                "svcname": "Sky Sport 4",
                 "verified": 1
             },
             {
@@ -57076,7 +57424,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Bundesliga 4 HD",
+                "svcname": "Sky Sport Bundesliga 4",
                 "verified": 1
             }
         ],
@@ -57157,6 +57505,27 @@
                     {
                         "language": "spa",
                         "parentpid": 1844,
+                        "pid": 9081,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 1841,
+                        "pid": 9081,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "eng",
+                        "parentpid": 1842,
+                        "pid": 9081,
+                        "position": 1000,
+                        "type": "TEXTSUB"
+                    },
+                    {
+                        "language": "rus",
+                        "parentpid": 1843,
                         "pid": 9081,
                         "position": 1000,
                         "type": "TEXTSUB"
@@ -61488,7 +61857,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Atlantic HD",
+                "svcname": "Sky Atlantic",
                 "verified": 1
             },
             {
@@ -61570,7 +61939,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Cinema Action Heroes HD",
+                "svcname": "Sky Cinema Highlights",
                 "verified": 1
             },
             {
@@ -61652,7 +62021,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Documentaries HD",
+                "svcname": "Sky Documentaries",
                 "verified": 1
             },
             {
@@ -61739,7 +62108,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Tennis HD",
+                "svcname": "Sky Sport Tennis",
                 "verified": 1
             },
             {
@@ -61821,7 +62190,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "13th Street HD",
+                "svcname": "13th Street",
                 "verified": 1
             },
             {
@@ -61857,13 +62226,6 @@
                         "audio_type": 1,
                         "language": "qaa",
                         "pid": 2050,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 1,
-                        "language": "qaa",
-                        "pid": 2052,
                         "position": 0,
                         "type": "AC3"
                     },
@@ -61908,7 +62270,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Golf HD",
+                "svcname": "Sky Sport Golf",
                 "verified": 1
             },
             {
@@ -61990,7 +62352,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "Sky Sport Austria 2 HD",
+                "svcname": "Sky Sport Austria 2",
                 "verified": 1
             }
         ],
@@ -62515,6 +62877,16 @@
                             }
                         ],
                         "pid": 7214,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 7234,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -63373,6 +63745,16 @@
                         "pid": 7203,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2544
+                            }
+                        ],
+                        "pid": 7205,
+                        "position": 262144,
+                        "type": "CA"
                     }
                 ],
                 "svcname": "Nick.Jr.",
@@ -64066,7 +64448,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -64686,7 +65068,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -66282,7 +66664,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -67340,7 +67722,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -67858,7 +68240,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -68745,7 +69127,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,

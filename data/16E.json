@@ -1266,7 +1266,7 @@
         "frequency": 12640000,
         "modulation": "PSK/8",
         "mux_name": "DVB-S2-12640000H-16E",
-        "onid": 170,
+        "onid": 366,
         "orbital": "16E",
         "pilot": "AUTO",
         "pls_code": 0,
@@ -1663,7 +1663,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1008,
@@ -1704,7 +1704,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1007,
@@ -1745,7 +1745,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1006,
@@ -1910,7 +1910,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1009,
@@ -1946,7 +1946,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 990,
@@ -8874,6 +8874,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -9618,16 +9619,16 @@
                         "type": "MPEG2AUDIO"
                     },
                     {
-                        "language": "fre",
-                        "parentpid": 2641,
-                        "pid": 9080,
-                        "position": 0,
-                        "type": "TEXTSUB"
-                    },
-                    {
                         "pid": 2641,
                         "position": 0,
                         "type": "TELETEXT"
+                    },
+                    {
+                        "language": "fre",
+                        "parentpid": 2641,
+                        "pid": 9080,
+                        "position": 1000,
+                        "type": "TEXTSUB"
                     },
                     {
                         "caidlist": [
@@ -14839,7 +14840,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 16,
@@ -14875,7 +14876,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 18,
@@ -14986,7 +14987,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 3,
@@ -15102,7 +15103,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1004,
@@ -15293,7 +15294,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 12,
@@ -15370,7 +15371,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 39,
@@ -15463,7 +15464,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 36,
@@ -15494,7 +15495,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 5,
@@ -15533,7 +15534,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 4,
@@ -21971,7 +21972,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 132,
@@ -22562,6 +22563,14 @@
                         "pid": 5414,
                         "position": 262144,
                         "type": "CA"
+                    },
+                    {
+                        "ancillartyid": 2,
+                        "compositionid": 2,
+                        "language": "hrv",
+                        "pid": 4643,
+                        "position": 0,
+                        "type": "DVBSUB"
                     }
                 ],
                 "svcname": "HGTV HD",
@@ -22569,7 +22578,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 75,
@@ -24453,7 +24462,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "RTCG 2 HD",
+                "svcname": "TVCG 2",
                 "verified": 1
             },
             {
@@ -24518,7 +24527,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "RTCG 1 HD",
+                "svcname": "TVCG 1",
                 "verified": 1
             },
             {
@@ -25120,7 +25129,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "T-Com Croatia",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "20",
         "services": [
@@ -28415,6 +28424,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -28558,7 +28568,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 111,
@@ -28634,7 +28644,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 39,
@@ -28940,7 +28950,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 34,
@@ -29140,7 +29150,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 133,
@@ -29270,7 +29280,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 131,
@@ -32472,7 +32482,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 312,
@@ -32644,7 +32654,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 111,
@@ -32824,7 +32834,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 112,
@@ -37901,10 +37911,10 @@
                     {
                         "caidlist": [
                             {
-                                "caid": 9728
+                                "caid": 2816
                             }
                         ],
-                        "pid": 8191,
+                        "pid": 1439,
                         "position": 262144,
                         "type": "CA"
                     }
@@ -38402,7 +38412,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -40196,7 +40206,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
