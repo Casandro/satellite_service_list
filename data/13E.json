@@ -12957,7 +12957,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -13410,7 +13410,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -19252,7 +19252,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -19635,7 +19635,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -19665,7 +19665,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -22478,7 +22478,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 10,
+                "dvb_servicetype": 2,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -23936,7 +23936,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -23973,7 +23973,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -24349,7 +24349,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -28320,7 +28320,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -28679,7 +28679,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 915,
@@ -29652,7 +29652,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 31,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -29850,7 +29850,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 431,
@@ -34295,7 +34295,7 @@
         "frequency": 11681000,
         "modulation": "PSK/8",
         "mux_name": "DVB-S2-11681000H-13E",
-        "onid": 319,
+        "onid": 318,
         "orbital": "13E",
         "pilot": "AUTO",
         "pls_code": 0,
@@ -38844,7 +38844,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 603,
@@ -41164,7 +41164,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -41320,7 +41320,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 985,
@@ -41485,7 +41485,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 702,
@@ -41746,7 +41746,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 711,
@@ -42007,7 +42007,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 910,
@@ -42161,7 +42161,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -42327,7 +42327,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 151,
@@ -42480,7 +42480,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -42646,7 +42646,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 78,
@@ -42800,7 +42800,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 705,
@@ -42946,7 +42946,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 8,
@@ -43059,7 +43059,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -43258,7 +43258,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -43412,7 +43412,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -46710,7 +46710,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 302,
@@ -46814,7 +46814,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 301,
@@ -46918,7 +46918,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 15,
@@ -47044,7 +47044,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 102,
@@ -47150,7 +47150,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 101,
@@ -47256,7 +47256,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 2,
@@ -47362,7 +47362,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 1,
@@ -50164,7 +50164,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 312,
@@ -50299,7 +50299,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -50354,7 +50354,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -50439,7 +50439,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -54065,7 +54065,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -54101,7 +54101,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 424,
@@ -54137,7 +54137,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 425,
@@ -56931,7 +56931,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -57025,7 +57025,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 2,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -58570,7 +58570,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -63398,7 +63398,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 31,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -64190,6 +64190,36 @@
             },
             {
                 "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1130,
+                "pmt": 1100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1711,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 1130,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Chaine 2",
+                "verified": 1
+            },
+            {
+                "auto": 0,
                 "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
@@ -64222,6 +64252,399 @@
                     }
                 ],
                 "svcname": "SOYUZ",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2120,
+                "pmt": 2100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1721,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2120,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ukr",
+                        "pid": 2130,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Eko TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2220,
+                "pmt": 2200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1722,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2220,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ukr",
+                        "pid": 2230,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Milady",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2320,
+                "pmt": 2300,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1723,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2320,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ukr",
+                        "pid": 2330,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Nataly",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2420,
+                "pmt": 2400,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1724,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2420,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ukr",
+                        "pid": 2430,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Provence",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2520,
+                "pmt": 2500,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1725,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2520,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 2530,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "KaravanTV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3130,
+                "pmt": 3100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1731,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 3130,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Chaine 3",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5130,
+                "pmt": 5100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1751,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 5130,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Chaine 1",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5230,
+                "pmt": 5200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1752,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 5230,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Bahai Radio",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5211,
+                "pmt": 5300,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1753,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 5211,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "WRN Russkij",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5511,
+                "pmt": 5500,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1755,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 5511,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Radio Jahani",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5611,
+                "pmt": 5600,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1756,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 5611,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "EDM Events",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5701,
+                "pmt": 5700,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1757,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 5701,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "WRN Sawt Al Alam",
                 "verified": 1
             },
             {
@@ -66985,7 +67408,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -74878,7 +75301,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -75006,7 +75429,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -81694,7 +82117,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -81733,7 +82156,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 424,
@@ -81769,7 +82192,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 25,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 425,
@@ -86738,7 +87161,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 2,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -86928,7 +87351,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 2,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -86958,7 +87381,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 2,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,

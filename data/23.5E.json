@@ -10100,7 +10100,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "M7 Group",
         "polarisation": "V",
         "rolloff": "20",
         "services": [
@@ -21730,7 +21730,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "M7 Group",
         "polarisation": "H",
         "rolloff": "20",
         "services": [
@@ -33447,7 +33447,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "M7 Group",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "20",
         "services": [
