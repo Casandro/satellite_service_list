@@ -8254,7 +8254,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -26552,7 +26552,7 @@
                         "type": "CA"
                     }
                 ],
-                "svcname": "test service",
+                "svcname": "History HD",
                 "verified": 1
             },
             {
@@ -44023,7 +44023,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 22,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
