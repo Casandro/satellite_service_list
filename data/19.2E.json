@@ -1209,7 +1209,7 @@
         "services": [
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -2144,7 +2144,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -2706,7 +2706,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -6699,7 +6699,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 25,
+                "dvb_servicetype": 1,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -6874,7 +6874,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -10339,7 +10339,7 @@
             },
             {
                 "auto": 0,
-                "dvb_servicetype": 1,
+                "dvb_servicetype": 22,
                 "enabled": true,
                 "force_caid": 0,
                 "lcn": 0,
@@ -11623,7 +11623,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -15566,7 +15566,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "20",
         "services": [
@@ -16267,7 +16267,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -17554,7 +17554,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -18984,7 +18984,7 @@
         "pls_code": 1,
         "pls_mode": "ROOT",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -19156,81 +19156,6 @@
         "polarisation": "H",
         "rolloff": "20",
         "services": [
-            {
-                "auto": 0,
-                "dvb_servicetype": 22,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 1023,
-                "pmt": 99,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "SKY",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 8,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 1023,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 1,
-                        "language": "ger",
-                        "pid": 1027,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2500
-                            }
-                        ],
-                        "pid": 6936,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2444
-                            }
-                        ],
-                        "pid": 6680,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2445
-                            }
-                        ],
-                        "pid": 7192,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2544
-                            }
-                        ],
-                        "pid": 7960,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "Sky Cinema Fun HD",
-                "verified": 1
-            },
             {
                 "auto": 0,
                 "dvb_servicetype": 25,
@@ -20737,7 +20662,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -22397,7 +22322,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -23327,7 +23252,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "BetaDigital",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -23745,88 +23670,6 @@
                     }
                 ],
                 "svcname": "Sky Cinema Premiere",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 22,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 1791,
-                "pmt": 102,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "SKY",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 516,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 1791,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 1,
-                        "language": "ger",
-                        "pid": 1795,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 1,
-                        "language": "eng",
-                        "pid": 1796,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2444
-                            }
-                        ],
-                        "pid": 6696,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2500
-                            }
-                        ],
-                        "pid": 6952,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2445
-                            }
-                        ],
-                        "pid": 7208,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2544
-                            }
-                        ],
-                        "pid": 7976,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "Sky Cinema 3",
                 "verified": 1
             },
             {
@@ -25436,7 +25279,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -28531,7 +28374,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -30057,7 +29900,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -31486,7 +31329,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -36133,7 +35976,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "BetaDigital",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -36245,81 +36088,6 @@
                     }
                 ],
                 "svcname": "CNBC",
-                "verified": 1
-            },
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 255,
-                "pmt": 96,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "SKY",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 135,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 255,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 1,
-                        "language": "ger",
-                        "pid": 259,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2500
-                            }
-                        ],
-                        "pid": 6935,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2444
-                            }
-                        ],
-                        "pid": 6679,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2445
-                            }
-                        ],
-                        "pid": 7191,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2544
-                            }
-                        ],
-                        "pid": 7959,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "Sky Cinema 4",
                 "verified": 1
             },
             {
@@ -39033,7 +38801,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -40700,7 +40468,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -42229,7 +41997,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "BetaDigital",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
@@ -45223,7 +44991,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -45755,7 +45523,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -46914,7 +46682,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -48003,7 +47771,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -49100,7 +48868,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -49340,7 +49108,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -55314,7 +55082,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "",
+        "pnetwork_name": "ASTRA 1",
         "polarisation": "V",
         "rolloff": "25",
         "services": [
@@ -56685,88 +56453,6 @@
         "polarisation": "H",
         "rolloff": "35",
         "services": [
-            {
-                "auto": 0,
-                "dvb_servicetype": 25,
-                "enabled": true,
-                "force_caid": 0,
-                "lcn": 0,
-                "lcn2": 0,
-                "lcn_minor": 0,
-                "pcr": 1279,
-                "pmt": 100,
-                "prefcapid": 0,
-                "prefcapid_lock": 0,
-                "priority": 0,
-                "provider": "SKY",
-                "pts_shift": 0,
-                "s_type_user": -1,
-                "sid": 11,
-                "srcid": 0,
-                "stream": [
-                    {
-                        "pid": 1279,
-                        "position": 0,
-                        "type": "H264"
-                    },
-                    {
-                        "audio_type": 1,
-                        "language": "ger",
-                        "pid": 1283,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "audio_type": 1,
-                        "language": "eng",
-                        "pid": 1284,
-                        "position": 0,
-                        "type": "AC3"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2445
-                            }
-                        ],
-                        "pid": 7291,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2444
-                            }
-                        ],
-                        "pid": 6779,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2500
-                            }
-                        ],
-                        "pid": 7035,
-                        "position": 262144,
-                        "type": "CA"
-                    },
-                    {
-                        "caidlist": [
-                            {
-                                "caid": 2544
-                            }
-                        ],
-                        "pid": 8059,
-                        "position": 262144,
-                        "type": "CA"
-                    }
-                ],
-                "svcname": "Sky Cinema Thriller HD",
-                "verified": 1
-            },
             {
                 "auto": 0,
                 "dvb_servicetype": 25,
@@ -59036,7 +58722,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "V",
         "rolloff": "35",
         "services": [
@@ -69625,7 +69311,7 @@
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "ASTRA 1",
+        "pnetwork_name": "",
         "polarisation": "H",
         "rolloff": "35",
         "services": [
