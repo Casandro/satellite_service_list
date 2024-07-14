@@ -1,5 +1,3065 @@
 [
     {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "5/6",
+        "frequency": 11262000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S-11262000H-7E",
+        "onid": 126,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "35",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3661,
+                "pmt": 3660,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 366,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3661,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 3662,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "4U TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3241,
+                "pmt": 3240,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 324,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3241,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 3242,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Navahang SD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3231,
+                "pmt": 3230,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 323,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3231,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 3232,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "TMTV HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3221,
+                "pmt": 3220,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 322,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3221,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 3222,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "AVANG TV HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3211,
+                "pmt": 3210,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 321,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3211,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 3212,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Persiana Medical",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3131,
+                "pmt": 3130,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 313,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3131,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 3132,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "T2\u00a0",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3021,
+                "pmt": 3020,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 302,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3021,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 3022,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Erfan halgheh",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 27500000,
+        "tsid": 30300,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 11304000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11304000H-7E",
+        "onid": 126,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "DTH",
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5201,
+                "pmt": 5200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 520,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5202,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Eenak Farsi",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5191,
+                "pmt": 5190,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 519,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5191,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5192,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "FX HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5181,
+                "pmt": 5180,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 518,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5181,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5182,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "PBC Tapesh HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5171,
+                "pmt": 5170,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 517,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5171,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5172,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Today HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5151,
+                "pmt": 5150,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 515,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5151,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5152,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Persiana HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5141,
+                "pmt": 5140,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 514,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5141,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 5142,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Radio Javan HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5121,
+                "pmt": 5120,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 512,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5121,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5122,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Damac TV HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5101,
+                "pmt": 5100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 510,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5102,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "AVA Max1 HD",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 29700000,
+        "tsid": 30300,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 10721000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S-10721000V-7E",
+        "onid": 126,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Opensky",
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 6662,
+                "pmt": 6507,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13907,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 6662,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC English (Europe)",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 6682,
+                "pmt": 6509,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13909,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 6682,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC English Aus NZ",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 6692,
+                "pmt": 6510,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13910,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 6692,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC English News",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 6752,
+                "pmt": 6516,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13916,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ara",
+                        "pid": 6752,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Arabic",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7022,
+                "pmt": 6543,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13943,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "per",
+                        "pid": 7022,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Afghan",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7302,
+                "pmt": 6571,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13971,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7302,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 1",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7312,
+                "pmt": 6572,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13972,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7312,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 2",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7322,
+                "pmt": 6573,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13973,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7322,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 3",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7332,
+                "pmt": 6574,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13974,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7332,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 4",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7342,
+                "pmt": 6575,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13975,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7342,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 5",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7352,
+                "pmt": 6576,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13976,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7352,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 6",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 8191,
+                "pmt": 1040,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 14000,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "fre",
+                        "pid": 1041,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "PUBLIRAD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1410,
+                "pmt": 1401,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "ABS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 14001,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1410,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 1411,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "IRANEFARDA",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1421,
+                "pmt": 1420,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 14002,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1421,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 1422,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "NOW",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 27500000,
+        "tsid": 2578,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "5/6",
+        "frequency": 11387000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S-11387000H-7E",
+        "onid": 126,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Eutelsat",
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 110,
+                "pmt": 100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "MBC",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1901,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 110,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 120,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "MBC Persia HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 510,
+                "pmt": 500,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1905,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 510,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 520,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "4U TV HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 810,
+                "pmt": 800,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1908,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 810,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 820,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Kanal Jadid HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1010,
+                "pmt": 1000,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1910,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1010,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 1020,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "ITN HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1110,
+                "pmt": 1100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1911,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1110,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 1120,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "NOW",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1210,
+                "pmt": 1200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1912,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1210,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 1220,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Fareh Iran TV",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 27500000,
+        "tsid": 40900,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "NONE",
+        "frequency": 11667000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11667000V-7E",
+        "onid": 8192,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "SAHI",
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 101,
+                "pmt": 256,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Harmonic",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "ara",
+                        "pid": 201,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 203,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Zagros TV",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 3780000,
+        "tsid": 4096,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "5/6",
+        "frequency": 11345000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S-11345000H-7E",
+        "onid": 126,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 27500000,
+        "tsid": 40700,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "NONE",
+        "frequency": 11554000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11554000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 10845000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-10845000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "5/6",
+        "frequency": 10981000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-10981000V-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 45000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "NONE",
+        "frequency": 11672000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11672000V-7E",
+        "onid": 8192,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "SAHI",
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 101,
+                "pmt": 256,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Harmonic",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "ara",
+                        "pid": 201,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 203,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Zagros TV",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 3780000,
+        "tsid": 4096,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 12657000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-12657000H-7E",
+        "onid": 65535,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Ericsson",
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 1,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 33,
+                "pmt": 32,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Service Provider",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 33,
+                        "position": 0,
+                        "type": "HEVC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 34,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Al-Forat HD",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 2475000,
+        "tsid": 1,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 11481000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11481000V-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 11324000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11324000V-7E",
+        "onid": 126,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 29700000,
+        "tsid": 30600,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 10721000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S-10721000H-7E",
+        "onid": 100,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "EUTELSAT 7A-A01",
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 101,
+                "pmt": 100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "duration": 3600,
+                        "height": 576,
+                        "pid": 101,
+                        "position": 0,
+                        "type": "MPEG2VIDEO",
+                        "width": 720
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "per",
+                        "pid": 102,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Persian",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 201,
+                "pmt": 200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 2,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 201,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 202,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 204,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Simaye-Azadi",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 921,
+                "pmt": 920,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 9002,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 921,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 922,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Kanal Yek HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 961,
+                "pmt": 960,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 9006,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 961,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 962,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "PARS TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 981,
+                "pmt": 980,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 9008,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 981,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 982,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Kanal Yek SD",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 22000000,
+        "tsid": 20000,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 10762000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-10762000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "NONE",
+        "frequency": 11677000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11677000V-7E",
+        "onid": 1,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 100,
+                "pmt": 32,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "none",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 100,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 101,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 102,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Kurdistan24",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 5040000,
+        "tsid": 1,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 12633000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-12633000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 3750000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "NONE",
+        "frequency": 11689000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11689000V-7E",
+        "onid": 1,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 512,
+                "pmt": 256,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "none",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 512,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 4112,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 4128,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "AVA",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 5040000,
+        "tsid": 1,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "1/2",
+        "frequency": 12530000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-12530000H-7E",
+        "onid": 8192,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Harmonic",
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 259,
+                "pmt": 256,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "Harmonic",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 257,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 257,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 258,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "satview",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 1480000,
+        "tsid": 4096,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "5/6",
+        "frequency": 11106000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11106000V-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 45000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 11262000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S-11262000H-7E",
+        "onid": 126,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3021,
+                "pmt": 3020,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 302,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3021,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 3022,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Erfan halgheh",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3131,
+                "pmt": 3130,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 313,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3131,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 3132,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "T2\u00a0",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3211,
+                "pmt": 3210,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 321,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3211,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 3212,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Persiana Medical",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3221,
+                "pmt": 3220,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 322,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3221,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 3222,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "AVANG TV HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3231,
+                "pmt": 3230,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 323,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3231,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 3232,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "TMTV HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3241,
+                "pmt": 3240,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 324,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3241,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 3242,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Navahang SD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3661,
+                "pmt": 3660,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 366,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "duration": 3600,
+                        "height": 576,
+                        "pid": 3661,
+                        "position": 0,
+                        "type": "MPEG2VIDEO",
+                        "width": 720
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 3662,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "4U TV",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 27500000,
+        "tsid": 30300,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "5/6",
+        "frequency": 11044000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11044000V-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "V",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 45000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 10721000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S-10721000V-7E",
+        "onid": 100,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 1,
+        "pls_mode": "ROOT",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Opensky",
+        "polarisation": "V",
+        "rolloff": "35",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 6662,
+                "pmt": 6507,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13907,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 6662,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC English (Europe)",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 6682,
+                "pmt": 6509,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13909,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 6682,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC English Aus NZ",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 6692,
+                "pmt": 6510,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13910,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 6692,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC English News",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 6752,
+                "pmt": 6516,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13916,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ara",
+                        "pid": 6752,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Arabic",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7022,
+                "pmt": 6543,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13943,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "per",
+                        "pid": 7022,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Afghan",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7302,
+                "pmt": 6571,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13971,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7302,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 1",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7312,
+                "pmt": 6572,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13972,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7312,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 2",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7322,
+                "pmt": 6573,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13973,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7322,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 3",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7332,
+                "pmt": 6574,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13974,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7332,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 4",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7342,
+                "pmt": 6575,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13975,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7342,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 5",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 7352,
+                "pmt": 6576,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 13976,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "und",
+                        "pid": 7352,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Eur Feed 6",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 8191,
+                "pmt": 1040,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 14000,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "fre",
+                        "pid": 1041,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "PUBLIRAD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1410,
+                "pmt": 1401,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "ABS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 14001,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "duration": 3600,
+                        "height": 576,
+                        "pid": 1410,
+                        "position": 0,
+                        "type": "MPEG2VIDEO",
+                        "width": 720
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 1411,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "IRANEFARDA",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1421,
+                "pmt": 1420,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 14002,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1421,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 1422,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "NOW",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 27500000,
+        "tsid": 2578,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 11152000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11152000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 4165000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 10887000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-10887000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "AUTO",
+        "frequency": 10721000,
+        "modulation": "AUTO",
+        "mux_name": "DVB-S-10721000H-7E",
+        "onid": 100,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 1,
+        "pls_mode": "ROOT",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "EUTELSAT 7A-A01",
+        "polarisation": "H",
+        "rolloff": "AUTO",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 101,
+                "pmt": 100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BBC World Service",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "duration": 3600,
+                        "height": 576,
+                        "pid": 101,
+                        "position": 0,
+                        "type": "MPEG2VIDEO",
+                        "width": 720
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "per",
+                        "pid": 102,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "BBC Persian",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 201,
+                "pmt": 200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GLOBECAST",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 2,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "duration": 3600,
+                        "height": 576,
+                        "pid": 201,
+                        "position": 0,
+                        "type": "MPEG2VIDEO",
+                        "width": 720
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 202,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 204,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Simaye-Azadi",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 921,
+                "pmt": 920,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 9002,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 921,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 922,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Kanal Yek HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 961,
+                "pmt": 960,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 9006,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 961,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 962,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "PARS TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 981,
+                "pmt": 980,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 9008,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 981,
+                        "position": 0,
+                        "type": "MPEG2VIDEO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 982,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Kanal Yek SD",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 22000000,
+        "tsid": 20000,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 11444000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S-11444000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 3210000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
         "delsys": "DVB-S2",
         "eit_tsid_nocheck": false,
         "fec": "2/3",
@@ -22,95 +3082,135 @@
         "tsid_zero": false
     },
     {
-        "delsys": "DVB-S",
+        "delsys": "DVB-S2",
         "eit_tsid_nocheck": false,
-        "fec": "3/4",
-        "frequency": 10721000,
-        "modulation": "QPSK",
-        "mux_name": "DVB-S-10721000V-7E",
-        "onid": 100,
-        "orbital": "7E",
-        "pilot": "AUTO",
-        "pls_code": 1,
-        "pls_mode": "ROOT",
-        "pmt_06_ac3": 0,
-        "pnetwork_name": "Opensky",
-        "polarisation": "V",
-        "rolloff": "35",
-        "services": [],
-        "sid_filter": 0,
-        "stream_id": -1,
-        "symbolrate": 27500000,
-        "tsid": 2578,
-        "tsid_zero": false
-    },
-    {
-        "delsys": "DVB-S",
-        "eit_tsid_nocheck": false,
-        "fec": "AUTO",
-        "frequency": 10721000,
-        "modulation": "NONE",
-        "mux_name": "DVB-S-10721000V-7E",
-        "onid": 126,
-        "orbital": "7E",
-        "pilot": "AUTO",
-        "pls_code": 1,
-        "pls_mode": "ROOT",
-        "pmt_06_ac3": 0,
-        "pnetwork_name": "Opensky",
-        "polarisation": "V",
-        "rolloff": "AUTO",
-        "services": [],
-        "sid_filter": 0,
-        "stream_id": -1,
-        "symbolrate": 27500000,
-        "tsid": 2578,
-        "tsid_zero": false
-    },
-    {
-        "delsys": "DVB-S",
-        "eit_tsid_nocheck": false,
-        "fec": "AUTO",
-        "frequency": 10721000,
-        "modulation": "AUTO",
-        "mux_name": "DVB-S-10721000H-7E",
-        "onid": 100,
-        "orbital": "7E",
-        "pilot": "AUTO",
-        "pls_code": 1,
-        "pls_mode": "ROOT",
-        "pmt_06_ac3": 0,
-        "pnetwork_name": "EUTELSAT 7A-A01",
-        "polarisation": "H",
-        "rolloff": "AUTO",
-        "services": [],
-        "sid_filter": 0,
-        "stream_id": -1,
-        "symbolrate": 22000000,
-        "tsid": 20000,
-        "tsid_zero": false
-    },
-    {
-        "delsys": "DVB-S",
-        "eit_tsid_nocheck": false,
-        "fec": "3/4",
-        "frequency": 10720750,
-        "modulation": "QPSK",
-        "mux_name": "DVB-S-10720750H-7E",
-        "onid": 100,
+        "fec": "2/3",
+        "frequency": 10971000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-10971000H-7E",
+        "onid": 65536,
         "orbital": "7E",
         "pilot": "AUTO",
         "pls_code": 0,
         "pls_mode": "GOLD",
         "pmt_06_ac3": 0,
-        "pnetwork_name": "EUTELSAT 7A-A01",
         "polarisation": "H",
-        "rolloff": "35",
+        "rolloff": "NONE",
         "services": [],
         "sid_filter": 0,
         "stream_id": -1,
-        "symbolrate": 22000000,
-        "tsid": 20000,
+        "symbolrate": 30000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "NONE",
+        "frequency": 11471000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11471000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "NONE",
+        "frequency": 11595000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11595000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 11356000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11356000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 35000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "NONE",
+        "frequency": 11513000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11513000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 65536,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "2/3",
+        "frequency": 12604000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-12604000H-7E",
+        "onid": 65536,
+        "orbital": "7E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "NONE",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 65536,
         "tsid_zero": false
     },
     {
@@ -129,7 +3229,275 @@
         "pnetwork_name": "DTH",
         "polarisation": "H",
         "rolloff": "AUTO",
-        "services": [],
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5101,
+                "pmt": 5100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 510,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5102,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "AVA Max1 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5121,
+                "pmt": 5120,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 512,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5121,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5122,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Damac TV HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5141,
+                "pmt": 5140,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "GMN",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 514,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5141,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 5142,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "Radio Javan HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5151,
+                "pmt": 5150,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 515,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5151,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5152,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Persiana HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5171,
+                "pmt": 5170,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 517,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5171,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5172,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Today HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5181,
+                "pmt": 5180,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 518,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5181,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5182,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "PBC Tapesh HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5191,
+                "pmt": 5190,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 519,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5191,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5192,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "FX HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 5201,
+                "pmt": 5200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 520,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 5201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 5202,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Eenak Farsi",
+                "verified": 1
+            }
+        ],
         "sid_filter": 0,
         "stream_id": -1,
         "symbolrate": 29700000,

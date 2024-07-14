@@ -1,0 +1,4550 @@
+[
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 10806000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-10806000V-4W",
+        "onid": 100,
+        "orbital": "4W",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "T-Home",
+        "polarisation": "V",
+        "rolloff": "20",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 101,
+                "pmt": 100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1501,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 110,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 140,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Film Caf\u00e9",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 201,
+                "pmt": 200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1502,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 210,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 240,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "MTV HITS",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 301,
+                "pmt": 300,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1503,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 301,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 310,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 311,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 340,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Disney Channel",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 501,
+                "pmt": 500,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1505,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 501,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 810,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 820,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 840,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "ATV HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 601,
+                "pmt": 600,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1506,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 601,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 610,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 640,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "ATV Spirit",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 6801,
+                "pmt": 6800,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1508,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 6801,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 6810,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 6811,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 6840,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "RTL KETT\u0150 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 901,
+                "pmt": 900,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1509,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 901,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 910,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 940,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Euronews",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1001,
+                "pmt": 1000,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1510,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1001,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 1010,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1040,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "RTL GOLD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1101,
+                "pmt": 1100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1511,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 1110,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 1111,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1140,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "RTL H\u00c1ROM",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1201,
+                "pmt": 1200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1512,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 1210,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1240,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Jazz TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1401,
+                "pmt": 1400,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1514,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1401,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 1410,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 1411,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1440,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Sorozat+",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1501,
+                "pmt": 1500,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1515,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1501,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 1510,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1540,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Muzsika Tv",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1601,
+                "pmt": 1600,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1516,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1601,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 1610,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 1611,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1640,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Cool HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1701,
+                "pmt": 1700,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1517,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1701,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 1710,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1740,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TV2Klub",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1801,
+                "pmt": 1800,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1518,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1801,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 1810,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 1811,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1840,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "ID",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1901,
+                "pmt": 1900,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1519,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1901,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 1910,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 1911,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1940,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "VIASAT6",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2101,
+                "pmt": 2100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1521,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 2110,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2140,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Zenebutik",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2201,
+                "pmt": 2200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1522,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 2210,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2240,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "MTV '00s",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2301,
+                "pmt": 2300,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1523,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2301,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 2310,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 2311,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2340,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Film+ HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2401,
+                "pmt": 2400,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1524,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2401,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 2410,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2440,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "FILM4",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2501,
+                "pmt": 2500,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1525,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2501,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 2510,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 2511,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2540,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Cartoon Network",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2601,
+                "pmt": 2600,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1526,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2601,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 2610,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2640,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Sl\u00e1ger Tv",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2801,
+                "pmt": 2800,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1528,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2801,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 2810,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 2811,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2840,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Life TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2901,
+                "pmt": 2900,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1529,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2901,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 2910,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 2911,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2940,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Ozone TV",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 5,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 10722000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-10722000V-4W",
+        "onid": 100,
+        "orbital": "4W",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "T-Home",
+        "polarisation": "V",
+        "rolloff": "20",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 179,
+                "pmt": 181,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1101,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 177,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 179,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4097,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TV2 Comedy",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 201,
+                "pmt": 200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1102,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 210,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 240,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Dikh TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 301,
+                "pmt": 300,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1103,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 301,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 310,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 311,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 340,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Nat Geo HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 164,
+                "pmt": 166,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1104,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 48,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 162,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "mul",
+                        "pid": 163,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "pid": 164,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4100,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "M2 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 159,
+                "pmt": 161,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1105,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 157,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 159,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4101,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Spektrum Home",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 154,
+                "pmt": 156,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1106,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 152,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 154,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4102,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TV Paprika",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 801,
+                "pmt": 800,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1108,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 801,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 810,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 811,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 840,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Viasat Film",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 134,
+                "pmt": 136,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1110,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 132,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 134,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "ancillartyid": 2,
+                        "compositionid": 2,
+                        "language": "hun",
+                        "pid": 5461,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4112,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "MTV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 129,
+                "pmt": 131,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1111,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 102,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 129,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 2502,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4369,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Viasat Explore",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1201,
+                "pmt": 1200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1112,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 1210,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1240,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "MTV '90s",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 114,
+                "pmt": 116,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1114,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 112,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 114,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4116,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "STORY4",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 104,
+                "pmt": 33,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1116,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 103,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 104,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4118,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TV4",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1701,
+                "pmt": 1700,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1117,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1701,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 1710,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 1711,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1740,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Viasat2",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1801,
+                "pmt": 1800,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1118,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1801,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 1810,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 1811,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "ancillartyid": 2,
+                        "compositionid": 2,
+                        "language": "hun",
+                        "pid": 1880,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 2,
+                        "compositionid": 2,
+                        "language": "eng",
+                        "pid": 1881,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1840,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "HBO3",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 1901,
+                "pmt": 1900,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1119,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 1901,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 1910,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 1940,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "English Club",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2001,
+                "pmt": 2000,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1120,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2001,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 2010,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "mul",
+                        "pid": 2011,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2040,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Filmbox",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2101,
+                "pmt": 2100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1121,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 2110,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 2111,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2140,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Viasat History",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2201,
+                "pmt": 2200,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1122,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 2210,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2240,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Jocky TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 69,
+                "pmt": 71,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1123,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 67,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 69,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4131,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Fishing&Hunting",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 64,
+                "pmt": 65,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1125,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 53,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 64,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 62,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "GALAXY4",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2801,
+                "pmt": 2800,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1128,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2801,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 2810,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2840,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Moziverzum",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 34,
+                "pmt": 36,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1130,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 32,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 34,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "pid": 35,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4144,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "H\u00edr TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 3101,
+                "pmt": 3100,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1131,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 3101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 3110,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "und",
+                        "pid": 3111,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 3140,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Filmbox Extra HD",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 1,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 10758000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-10758000V-4W",
+        "onid": 100,
+        "orbital": "4W",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "T-Home",
+        "polarisation": "V",
+        "rolloff": "20",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 8003,
+                "pmt": 93,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1253,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 8003,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4371,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "MR3",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 100,
+                "pmt": 94,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1252,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 100,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4370,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "MR2",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 99,
+                "pmt": 95,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1251,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 99,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4369,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "MR1",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 164,
+                "pmt": 165,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1225,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 34,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 162,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "pid": 164,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "mul",
+                        "pid": 1304,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4151,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "M4 Sport HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 118,
+                "pmt": 119,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1224,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ger",
+                        "pid": 106,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 118,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 120,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "ORF1",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 201,
+                "pmt": 140,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1218,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 201,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 202,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4146,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Mozi+",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 126,
+                "pmt": 128,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1217,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4177,
+                        "position": 262144,
+                        "type": "CA"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 121,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 124,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 126,
+                        "position": 0,
+                        "type": "H264"
+                    }
+                ],
+                "svcname": "JimJam",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 104,
+                "pmt": 105,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1216,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ita",
+                        "pid": 103,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 104,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 122,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Mediaset",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 701,
+                "pmt": 101,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1213,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 701,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 702,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 123,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Izaura TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 481,
+                "pmt": 40,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1212,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "duration": 3600,
+                        "height": 576,
+                        "pid": 481,
+                        "position": 0,
+                        "type": "H264",
+                        "width": 720
+                    },
+                    {
+                        "audio_type": 0,
+                        "pid": 482,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Teszt V",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 49,
+                "pmt": 52,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1209,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "language": "mul",
+                        "pid": 44,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 46,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "pid": 49,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "pid": 1501,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4162,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "M1 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 84,
+                "pmt": 89,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1208,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 38,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 84,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 39,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Super TV2 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 43,
+                "pmt": 36,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1206,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 41,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "pid": 43,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "pid": 47,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "mul",
+                        "pid": 135,
+                        "position": 0,
+                        "type": "AC3"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 91,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Duna TV HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 55,
+                "pmt": 57,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1205,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 53,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 54,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 55,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4152,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Nickelodeon",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 65,
+                "pmt": 67,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1204,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 63,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 65,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4150,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "PRIME",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 75,
+                "pmt": 77,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1202,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 48,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "mul",
+                        "pid": 60,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 73,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 75,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "nar",
+                        "pid": 1404,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4148,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TV2 HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 90,
+                "pmt": 92,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1201,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 32,
+                        "position": 0,
+                        "type": "TELETEXT"
+                    },
+                    {
+                        "ancillartyid": 2,
+                        "compositionid": 1,
+                        "language": "qaa",
+                        "pid": 42,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "mul",
+                        "pid": 62,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 88,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 90,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "nar",
+                        "pid": 3003,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "ancillartyid": 1,
+                        "compositionid": 1,
+                        "language": "hun",
+                        "pid": 3011,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 4145,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "RTL HD",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 2,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 10842000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-10842000V-4W",
+        "onid": 100,
+        "orbital": "4W",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "T-Home",
+        "polarisation": "V",
+        "rolloff": "20",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 158,
+                "pmt": 159,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1627,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 157,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 158,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5671,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Heti Tv",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 149,
+                "pmt": 150,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1626,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 106,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 148,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 149,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5670,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Viasat Nature",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 155,
+                "pmt": 156,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1625,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 154,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 155,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 166,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5669,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Nick JR",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 109,
+                "pmt": 135,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1624,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 107,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 109,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5668,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "CNN International",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 2301,
+                "pmt": 2300,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1623,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 2301,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 2310,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "language": "mul",
+                        "pid": 2311,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "ancillartyid": 2,
+                        "compositionid": 2,
+                        "language": "hun",
+                        "pid": 2330,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 2340,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "EPIC Drama HD",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 140,
+                "pmt": 141,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1622,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 137,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 140,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5666,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Minimax",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 55,
+                "pmt": 75,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1621,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 45,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 55,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 7565,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5665,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "B\u00f3nusz",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 116,
+                "pmt": 119,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1620,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "spa",
+                        "pid": 115,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 116,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5664,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TVE",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 92,
+                "pmt": 95,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1618,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 76,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 92,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5656,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "D1 TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 47,
+                "pmt": 57,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1617,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 1,
+                        "audio_version": 2,
+                        "language": "ger",
+                        "pid": 46,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 47,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5655,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Stingray Classica",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 35,
+                "pmt": 41,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1616,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "language": "hun",
+                        "pid": 33,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "pid": 35,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5654,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Da Vinci",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 97,
+                "pmt": 98,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1615,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ger",
+                        "pid": 94,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 97,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5653,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "ZDF",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 34,
+                "pmt": 39,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1614,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 34,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 40,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "eng",
+                        "pid": 165,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5652,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TLC",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 103,
+                "pmt": 104,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1613,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ger",
+                        "pid": 102,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 103,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5651,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "RTL",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 100,
+                "pmt": 101,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1612,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ger",
+                        "pid": 99,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 100,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5650,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "SAT1",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 64,
+                "pmt": 65,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1611,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 53,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 64,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5649,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Hatoscsatorna",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 82,
+                "pmt": 83,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1609,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 81,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 82,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5641,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Film M\u00e1nia",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 85,
+                "pmt": 86,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1608,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "ger",
+                        "pid": 84,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 85,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5640,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "KIKA",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 501,
+                "pmt": 79,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1607,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 501,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 502,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5639,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TV2 Kids",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 36,
+                "pmt": 37,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1606,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "fre",
+                        "pid": 32,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 36,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "ancillartyid": 2,
+                        "compositionid": 2,
+                        "language": "eng",
+                        "pid": 936,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "ancillartyid": 2,
+                        "compositionid": 2,
+                        "language": "fre",
+                        "pid": 942,
+                        "position": 0,
+                        "type": "DVBSUB"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5638,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TV5 Monde",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 42,
+                "pmt": 43,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1605,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 38,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 42,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5637,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Nicktoons",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 48,
+                "pmt": 49,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1604,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 44,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 48,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5636,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "TV2 S\u00e9f",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 54,
+                "pmt": 93,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1603,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "language": "eng",
+                        "pid": 51,
+                        "position": 0,
+                        "type": "AAC"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 52,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 54,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5635,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Cartoonito",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 60,
+                "pmt": 61,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1602,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 56,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 60,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5634,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "FIT TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 1,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 66,
+                "pmt": 67,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "T-Home",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 1601,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "language": "hun",
+                        "pid": 62,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "pid": 66,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 2816
+                            }
+                        ],
+                        "pid": 5633,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "Apostol TV",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 6,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 11222000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11222000H-4W",
+        "onid": 100,
+        "orbital": "4W",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "20",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 3,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 11258000,
+        "modulation": "PSK/8",
+        "mux_name": "DVB-S2-11258000H-4W",
+        "onid": 100,
+        "orbital": "4W",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "polarisation": "H",
+        "rolloff": "20",
+        "services": [],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 4,
+        "tsid_zero": false
+    }
+]

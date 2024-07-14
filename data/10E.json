@@ -1,0 +1,1824 @@
+[
+    {
+        "delsys": "DVB-S2",
+        "eit_tsid_nocheck": false,
+        "fec": "5/6",
+        "frequency": 11221000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S2-11221000V-10E",
+        "onid": 16,
+        "orbital": "10E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "BFBS",
+        "polarisation": "V",
+        "rolloff": "20",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 12,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 508,
+                "pmt": 518,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8508,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "pid": 508,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "Program 8",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 12,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 507,
+                "pmt": 517,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8507,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "pid": 507,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "7 Holywood",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 12,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 506,
+                "pmt": 516,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8506,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "pid": 506,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "6 Blandford",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 12,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 505,
+                "pmt": 515,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8505,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "pid": 505,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "5 Colchester",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 12,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 504,
+                "pmt": 514,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8504,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "pid": 504,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "4 Catterick",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 12,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 503,
+                "pmt": 513,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8503,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "pid": 503,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "3 Bulford",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 12,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 502,
+                "pmt": 512,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8502,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "pid": 502,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "2 Brize Norton",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 12,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 501,
+                "pmt": 511,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8501,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "pid": 501,
+                        "position": 0,
+                        "type": "AAC"
+                    }
+                ],
+                "svcname": "1 Aldershot",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 448,
+                "pmt": 1048,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8048,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 448,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "68 BFBS Gurkha East",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 447,
+                "pmt": 1047,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8047,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 447,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "91 Gibraltar",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 445,
+                "pmt": 1045,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8045,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 445,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "87 BFBS BZN",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 444,
+                "pmt": 1044,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8044,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 444,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "86 BFBS Scotland",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 443,
+                "pmt": 1043,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8043,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 443,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "85 BFBS Blandford",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 442,
+                "pmt": 1042,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8042,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 442,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3042,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "84 Talk Sport",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 441,
+                "pmt": 1041,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8041,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 441,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "83 Fun Kids",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 440,
+                "pmt": 1040,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8040,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 440,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3040,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "82 World Service",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 437,
+                "pmt": 1037,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8037,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 437,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "74 BFBS Samishran",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 435,
+                "pmt": 1035,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8035,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 435,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "73 BFBS Rewind",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 434,
+                "pmt": 1034,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8034,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 434,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "72 BFBS Edge",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 433,
+                "pmt": 1033,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8033,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 433,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "69 BFBS Gurkha Radio",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 432,
+                "pmt": 1032,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8032,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 432,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "71 BFBS Beats",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 431,
+                "pmt": 1031,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8031,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 431,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "51 BFBS Radio",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 430,
+                "pmt": 1030,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8030,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 430,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "66 BFBS N.Ireland",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 429,
+                "pmt": 1029,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8029,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 429,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3029,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "63 BFBS East",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 428,
+                "pmt": 1028,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8028,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 428,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3028,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "92 (Contribution)",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 427,
+                "pmt": 1027,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8027,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 427,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "53 BFBS UK National",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 426,
+                "pmt": 1026,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8026,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 426,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "75 BFBS Best of British",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 425,
+                "pmt": 1025,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8025,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 425,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "65 BFBS Germany",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 424,
+                "pmt": 1024,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8024,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 424,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3024,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "52 BFBS Radio 2",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 423,
+                "pmt": 1023,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8023,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 423,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "67 BFBS UK Bases",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 422,
+                "pmt": 1022,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8022,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 422,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "62 BFBS Cyprus",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 2,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 421,
+                "pmt": 1021,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8021,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 421,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    }
+                ],
+                "svcname": "61 BFBS Ops",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 118,
+                "pmt": 1018,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8018,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 118,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 418,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3018,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "18 Nepal TV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 117,
+                "pmt": 1017,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8017,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 117,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 417,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3017,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "17 Sky Cinema",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 114,
+                "pmt": 1014,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8014,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 114,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 414,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3014,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "14 BFBS Extra Delay",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 113,
+                "pmt": 1013,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8013,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 113,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 413,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3013,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "13 ITV Delay",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 112,
+                "pmt": 1012,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8012,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 112,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 412,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3012,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "12 BBC Two Delay",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 111,
+                "pmt": 1011,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8011,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 111,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 411,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3011,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "11 BBC One Delay",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 110,
+                "pmt": 1010,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8010,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 110,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 410,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3010,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "10 Channel 5",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 109,
+                "pmt": 1009,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8009,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 109,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 409,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3009,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "09 Channel 4",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 108,
+                "pmt": 1008,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8008,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 108,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 408,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3008,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "08 Sky News",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 107,
+                "pmt": 1007,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8007,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 107,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 407,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3007,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "07 BFBS Sport",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 106,
+                "pmt": 1006,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8006,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 106,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 406,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3006,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "06 TNT Sports",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 105,
+                "pmt": 1005,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8005,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 105,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 405,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3005,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "05 Sky Sports",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 104,
+                "pmt": 1004,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8004,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 104,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 404,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3004,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "04 BFBS Extra",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 103,
+                "pmt": 1003,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8003,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 103,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 403,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3003,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "03 ITV",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 102,
+                "pmt": 1002,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8002,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 102,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 402,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3002,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "02 BBC Two",
+                "verified": 1
+            },
+            {
+                "auto": 0,
+                "dvb_servicetype": 22,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 101,
+                "pmt": 1001,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "BFBS",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 8001,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 101,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 401,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 1606
+                            }
+                        ],
+                        "pid": 3001,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "01 BBC One",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 30000000,
+        "tsid": 1,
+        "tsid_zero": false
+    },
+    {
+        "delsys": "DVB-S",
+        "eit_tsid_nocheck": false,
+        "fec": "3/4",
+        "frequency": 10771000,
+        "modulation": "QPSK",
+        "mux_name": "DVB-S-10771000H-10E",
+        "onid": 270,
+        "orbital": "10E",
+        "pilot": "AUTO",
+        "pls_code": 0,
+        "pls_mode": "GOLD",
+        "pmt_06_ac3": 0,
+        "pnetwork_name": "Eutelsat",
+        "polarisation": "H",
+        "rolloff": "35",
+        "services": [
+            {
+                "auto": 0,
+                "dvb_servicetype": 25,
+                "enabled": true,
+                "force_caid": 0,
+                "lcn": 0,
+                "lcn2": 0,
+                "lcn_minor": 0,
+                "pcr": 514,
+                "pmt": 2048,
+                "prefcapid": 0,
+                "prefcapid_lock": 0,
+                "priority": 0,
+                "provider": "EBU",
+                "pts_shift": 0,
+                "s_type_user": -1,
+                "sid": 40004,
+                "srcid": 0,
+                "stream": [
+                    {
+                        "pid": 514,
+                        "position": 0,
+                        "type": "H264"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 4114,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "audio_type": 0,
+                        "audio_version": 2,
+                        "pid": 4130,
+                        "position": 0,
+                        "type": "MPEG2AUDIO"
+                    },
+                    {
+                        "caidlist": [
+                            {
+                                "caid": 9728
+                            }
+                        ],
+                        "pid": 8191,
+                        "position": 262144,
+                        "type": "CA"
+                    }
+                ],
+                "svcname": "AFP2 EU",
+                "verified": 1
+            }
+        ],
+        "sid_filter": 0,
+        "stream_id": -1,
+        "symbolrate": 22963000,
+        "tsid": 30800,
+        "tsid_zero": false
+    }
+]
